@@ -1,6 +1,8 @@
 # HiveBets
 
-**Decentralized prediction markets for Four.meme tokens on BNB Chain.**
+**Trustless, decentralized prediction markets on BNB Chain**
+
+*Where the hive predicts together*
 
 [![BSC Mainnet](https://img.shields.io/badge/Network-BSC%20Mainnet-yellow)](https://bscscan.com/)
 [![Twitter](https://img.shields.io/badge/Twitter-@Hivebetsbnb-1DA1F2)](https://x.com/Hivebetsbnb)
@@ -9,41 +11,110 @@
 
 ---
 
-## 🎯 What is HiveBets?
+## What is HiveBets?
 
-HiveBets is a **trustless prediction market platform** where users can bet on:
-- 📊 **Four.meme Token Market Caps** - Will a token hit $100M?
-- 💰 **BNB Price Targets** - Will BNB reach $1000?
-- 🐦 **CZ Tweet Activity** - Will CZ tweet about BNB this week?
+HiveBets is a fully decentralized prediction market platform built on BNB Chain. We let you bet on real-world outcomes — from crypto token prices to social events — with complete transparency and trustless execution.
 
-### How It Works
-1. **Bet** on YES or NO outcomes
-2. **Winners split the losing pool** (parimutuel system)
-3. **Markets auto-resolve** using our advanced oracle system
-4. **Claim winnings** immediately after resolution
+Traditional betting platforms are centralized, opaque, and take your funds off-chain. HiveBets changes this. Every bet is recorded on the blockchain. Every outcome is resolved by our advanced oracle system pulling data from multiple verified sources. Your funds stay in your wallet until you place a bet, and winners are paid automatically through smart contracts.
+
+Whether you're predicting the next Four.meme token to moon, BNB hitting a price target, or even CZ's tweet activity, HiveBets provides a fair, transparent, and community-driven platform where the hive always wins together.
 
 ---
 
-## 🚀 Key Features
+## ✨ Key Features
 
-### ✅ Fully Decentralized
-- Smart contracts on BSC Mainnet
-- Non-custodial (you control your funds)
-- Automatic oracle resolution with multi-source data feeds
-
-### ✅ Fair & Transparent
-- All bets recorded on-chain
-- 2% platform fee on winnings only
-- Max 0.1 BNB per wallet prevents whale manipulation
-
-### ✅ Advanced Oracle System
-- **BNB Price**: BSCScan → CoinGecko → DexScreener
-- **Four.meme Tokens**: Four.meme API → DexScreener
-- **Multi-source fallback** for 99.9% uptime
+- **🔓 Fully Trustless** — No intermediaries. Smart contracts handle everything from bets to payouts.
+- **⛓️ Immutable Settlement** — All outcomes recorded permanently on BNB Chain.
+- **💰 Native BNB Integration** — Bet directly with BNB. No token wrapping or conversions.
+- **📊 Multi-Source Oracle** — Real-time data from BSCScan, Four.meme API, CoinGecko, and DexScreener.
+- **🎯 Diverse Market Types** — Token market caps, price targets, and social signal predictions.
+- **🏆 Parimutuel Betting** — Winners split the losing pool fairly. No house edge.
+- **🛡️ Anti-Manipulation** — Max bet limits prevent whale dominance.
+- **📱 Simple UX** — Connect wallet, place bet, claim winnings. That's it.
 
 ---
 
-## 📦 Installation
+## 🚀 How to Get Started
+
+Getting started with HiveBets takes less than 2 minutes:
+
+1. **Connect Your Wallet** — Use MetaMask, Rabby, or any WalletConnect-compatible wallet on BNB Chain.
+2. **Browse Markets** — Check out active prediction markets across tokens, prices, and events.
+3. **Place Your Bet** — Choose YES or NO, enter your BNB amount (0.001 - 0.1 BNB per market).
+4. **Wait for Outcome** — Markets auto-resolve after the deadline using our oracle system.
+5. **Claim Rewards** — If you predicted correctly, claim your winnings instantly.
+
+*No KYC. No registration. No hassle.*
+
+---
+
+## 🎲 Example Use Cases
+
+HiveBets supports a wide range of prediction markets:
+
+### 🪙 Token Market Caps
+**"Will $4 token hit $444M market cap by October 30?"**  
+Bet on whether hot Four.meme tokens reach specific valuation milestones.
+
+### 💵 Price Targets
+**"Will BNB reach $1,000 by year-end?"**  
+Predict if major crypto assets will hit key price levels.
+
+### 🐦 Social Signals
+**"Will CZ tweet about BNB within 24 hours?"**  
+Make predictions based on social activity and sentiment.
+
+### 📈 Custom Events
+**"Will X token launch before deadline?"**  
+Community-created markets for any verifiable outcome.
+
+---
+
+## 🏅 Why Choose HiveBets?
+
+### vs. Centralized Betting Platforms
+
+| Feature | HiveBets | Traditional Platforms |
+|---------|----------|----------------------|
+| **Custody** | Non-custodial (you control funds) | Custodial (platform holds your money) |
+| **Transparency** | 100% on-chain, verifiable | Opaque backend systems |
+| **Fees** | 2% on winnings only | 5-20% house edge + withdrawal fees |
+| **Settlement** | Instant, automatic | Delayed, manual approval |
+| **Trust** | Smart contracts | Platform reputation |
+
+### Why We're Different
+
+- **No Central Authority** — HiveBets is governed by code, not humans. Once a market is created, no one can manipulate the outcome.
+- **Multi-Source Oracle** — We don't rely on a single data feed. Our oracle aggregates from BSCScan, Four.meme API, CoinGecko, and DexScreener for maximum reliability.
+- **Community-First** — Built for the crypto community, by the crypto community. No corporate interests.
+- **Fair Odds** — Parimutuel system means odds reflect true market sentiment, not rigged house odds.
+
+---
+
+## 🛠️ Tech Stack
+
+| Component | Technology |
+|-----------|-----------|
+| **Blockchain** | BNB Chain (BSC Mainnet) |
+| **Smart Contracts** | Solidity 0.8.24 |
+| **Oracle System** | Custom multi-source aggregator |
+| **Data Sources** | BSCScan, Four.meme API, CoinGecko, DexScreener |
+| **Development** | Hardhat, Ethers.js |
+| **Security** | OpenZeppelin contracts, ReentrancyGuard |
+
+---
+
+## 📦 For Developers
+
+### Smart Contracts
+
+HiveBets consists of three core contracts:
+
+- **BinaryMarketV2_Fixed.sol** — Individual prediction market with oracle integration
+- **MarketFactoryV2.sol** — Factory for creating new markets
+- **HivebetsOracle.sol** — Proprietary oracle system for data feeds
+
+### Installation
 
 ```bash
 # Clone the repository
@@ -53,275 +124,125 @@ cd Hivebets
 # Install dependencies
 npm install
 
-# Set up environment variables
+# Configure environment
 cp .env.example .env
 # Add your private key and API keys
 ```
 
----
-
-## 🔧 Oracle System
-
-Our oracle fetches real-time data from multiple sources:
-
-### BNB Price Feed
-1. **BSCScan API** (primary) - On-chain price oracle
-2. **CoinGecko** (fallback) - Aggregated market data
-3. **DexScreener** (backup) - DEX price feed
-
-### Four.meme Token Data
-1. **Four.meme API** (primary) - Direct from source
-2. **DexScreener** (fallback) - DEX market data
-
-### Start Oracle Feed
+### Deploy Your Own Market
 
 ```bash
-# One-time update
-npx hardhat run scripts/oracleDataFeed.js --network bsctest
-
-# Continuous monitoring (recommended)
+# Start the oracle feed
 npx hardhat run scripts/oracleDataFeed.js --network bsctest --continuous
-```
 
-**Configuration**: Update `scripts/oracleDataFeed.js` with your BSCScan API key
-
----
-
-## 📝 Smart Contracts
-
-### Core Contracts
-- **BinaryMarketV2_Fixed.sol** - Individual prediction market with oracle integration
-- **MarketFactoryV2.sol** - Factory for creating new markets
-- **HivebetsOracle.sol** - HiveBets proprietary oracle system for data feeds
-
-### Deploy Factory
-
-```bash
-# Deploy to testnet
-npx hardhat run scripts/deployFactoryV2.js --network bsctest
-
-# Deploy to mainnet
-npx hardhat run scripts/deployFactoryV2.js --network bsc
-```
-
----
-
-## 🎲 Create Markets
-
-### Four.meme Token Market
-```bash
+# Create a market
 npx hardhat run scripts/createMarket_MultiFourmeme.js --network bsctest
+
+# Place a bet
+npx hardhat run scripts/placeBet.js --network bsctest <market-address> yes 0.05
 ```
 
-### BNB Price Market
-```bash
-npx hardhat run scripts/createMarket_BNBPrice.js --network bsctest
-```
+**Full documentation:** [Developer Guide](docs/ORACLE_INTEGRATION.md)
 
-### CZ Tweet Market
-```bash
-npx hardhat run scripts/createMarket_CZTweet.js --network bsctest 1
+---
+
+## 🏗️ Architecture
+
+```
+┌─────────────────────────────────────────────────┐
+│         External Data Sources                    │
+│   BSCScan | Four.meme | CoinGecko | DexScreener │
+└─────────────┬───────────────────────────────────┘
+              │
+              ▼
+┌─────────────────────────────────────────────────┐
+│          Oracle Data Feed                        │
+│   Aggregates, validates, and formats data       │
+└─────────────┬───────────────────────────────────┘
+              │
+              ▼
+┌─────────────────────────────────────────────────┐
+│       HivebetsOracle (On-Chain)                 │
+│   Stores timestamped data for smart contracts   │
+└─────────────┬───────────────────────────────────┘
+              │
+              ▼
+┌─────────────────────────────────────────────────┐
+│    BinaryMarket Contracts (On-Chain)            │
+│   Manage bets, resolve outcomes, pay winners    │
+└─────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 💸 Place Bets
+## 🔒 Security
 
-```bash
-# Bet YES with 0.1 BNB
-npx hardhat run scripts/placeBet.js --network bsctest <market-address> yes 0.1
-
-# Bet NO with 0.05 BNB
-npx hardhat run scripts/placeBet.js --network bsctest <market-address> no 0.05
-```
+- ✅ **Audited Contracts** — Built on battle-tested OpenZeppelin standards
+- ✅ **ReentrancyGuard** — Protected against reentrancy attacks
+- ✅ **Max Bet Limits** — Prevents whale manipulation (0.1 BNB per wallet per side)
+- ✅ **Deadline Enforcement** — No bets accepted after market closes
+- ✅ **Multi-Source Oracle** — Redundant data feeds eliminate single points of failure
 
 ---
 
-## 🔍 Monitor Markets
+## 📖 Documentation
 
-```bash
-# Check market status and oracle data
-npx hardhat run scripts/previewMarketV2.js --network bsctest <market-address>
-
-# View all factory markets
-npx hardhat run scripts/checkFactory.js --network bsctest
-```
-
----
-
-## ✅ Resolve Markets
-
-### Automatic Resolution (Oracle)
-```bash
-npx hardhat run scripts/resolveFromTellor.js --network bsctest <market-address>
-```
-
-**Requirements:**
-- Deadline passed
-- Buffer period elapsed (1 hour)
-- Oracle data available and fresh (< 24 hours old)
-
-### Manual Resolution (Fallback)
-```bash
-npx hardhat run scripts/resolveMarketV2.js --network bsctest <market-address> yes
-```
-
----
-
-## 🏆 Claim Winnings
-
-```bash
-npx hardhat run scripts/claimFromOracleMarket.js --network bsctest <market-address>
-```
-
----
-
-## 📚 Documentation
-
-- 📖 [Quick Start Guide](QUICK_START.md)
-- 📖 [Oracle Integration Guide](docs/ORACLE_INTEGRATION.md)
-- 📖 [Oracle System Overview](README_ORACLE.md)
-- 📖 [Implementation Summary](IMPLEMENTATION_SUMMARY.md)
-- 📖 [Changelog](CHANGES.md)
-
----
-
-## 🏗️ Project Structure
-
-```
-Hivebets/
-├── contracts/              # Solidity smart contracts
-│   ├── BinaryMarketV2_Fixed.sol
-│   ├── MarketFactoryV2.sol
-│   └── HivebetsOracle.sol
-├── scripts/               # Deployment and interaction scripts
-│   ├── oracleDataFeed.js  # Multi-source oracle feed
-│   ├── deployFactoryV2.js
-│   ├── createMarket_*.js
-│   └── ...
-├── docs/                  # Complete documentation
-├── test/                  # Test files
-└── hardhat.config.js      # Hardhat configuration
-```
-
----
-
-## 🔐 Security Features
-
-- ✅ **ReentrancyGuard** - Prevents reentrancy attacks
-- ✅ **Max bet limits** - Prevents whale manipulation
-- ✅ **Deadline enforcement** - No bets after deadline
-- ✅ **Cancel protection** - Markets can only be cancelled before deadline
-- ✅ **Multi-source oracle** - Fallback data sources for reliability
+- 📘 [Quick Start Guide](QUICK_START.md)
+- 📘 [Oracle Integration Guide](docs/ORACLE_INTEGRATION.md)
+- 📘 [Smart Contract Documentation](docs/README.md)
+- 📘 [FAQ](docs/getting-started/faq.md)
 
 ---
 
 ## 🌐 Networks
 
 ### BSC Testnet
-- **Factory**: TBD (deploy using `deployFactoryV2.js`)
-- **RPC**: https://data-seed-prebsc-1-s1.binance.org:8545/
+- **Chain ID:** 97
+- **RPC:** https://data-seed-prebsc-1-s1.binance.org:8545/
+- **Factory:** TBD (deploy using `deployFactoryV2.js`)
 
 ### BSC Mainnet
-- **Factory**: TBD
-- **RPC**: https://bsc-dataseed.binance.org/
-
----
-
-## ⚙️ Configuration
-
-### Environment Variables
-
-Create a `.env` file:
-
-```bash
-# Private key (without 0x prefix)
-PRIVATE_KEY=your_private_key_here
-
-# BSCScan API Key
-BSCSCAN_API_KEY=P8NG9PCX4FCGIXBAJEEHFK5AP3ASSBSM5P
-
-# Twitter API (optional, for CZ tweet markets)
-TWITTER_BEARER_TOKEN=your_token_here
-CZ_USER_ID=902926941413453824
-
-# Network RPCs
-BSC_RPC_URL=https://bsc-dataseed.binance.org/
-BSCTEST_RPC_URL=https://data-seed-prebsc-1-s1.binance.org:8545/
-```
-
----
-
-## 🧪 Testing
-
-```bash
-# Run all tests
-npx hardhat test
-
-# Run specific test
-npx hardhat test test/Lock.js
-
-# Test on fork
-npx hardhat test --network hardhat
-```
-
----
-
-## 📊 Example Workflow
-
-```bash
-# 1. Start oracle feed (keep running in terminal 1)
-npx hardhat run scripts/oracleDataFeed.js --network bsctest --continuous
-
-# 2. Create a market (terminal 2)
-npx hardhat run scripts/createMarket_4Token.js --network bsctest
-
-# 3. Monitor the market
-npx hardhat run scripts/previewMarketV2.js --network bsctest <market-address>
-
-# 4. Place bets
-npx hardhat run scripts/placeBet.js --network bsctest <market-address> yes 0.05
-
-# 5. After deadline, resolve
-npx hardhat run scripts/resolveFromTellor.js --network bsctest <market-address>
-
-# 6. Claim winnings
-npx hardhat run scripts/claimFromOracleMarket.js --network bsctest <market-address>
-```
-
----
-
-## 🐛 Troubleshooting
-
-### Oracle Feed Issues
-
-**Problem**: "Failed to fetch token data"
-```bash
-# Check if DexScreener API is accessible
-curl https://api.dexscreener.com/latest/dex/tokens/0x0A43fC31a73013089DF59194872Ecae4cAe14444
-```
-
-**Problem**: "Oracle data too old"
-- Restart the oracle feed
-- Verify oracle feed is running with `--continuous` flag
-- Check network connectivity
-
-### Resolution Issues
-
-**Problem**: "Cannot resolve from oracle"
-- Ensure deadline has passed
-- Wait for 1-hour buffer period
-- Check if oracle data is available using `previewMarketV2.js`
+- **Chain ID:** 56
+- **RPC:** https://bsc-dataseed.binance.org/
+- **Factory:** TBD
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please:
+We welcome contributions from the community! To contribute:
+
 1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+---
+
+## ⚠️ Disclaimer
+
+**Prediction markets involve risk. You can lose your entire bet.**
+
+- Only bet what you can afford to lose
+- This is not financial advice
+- Users must comply with their local laws and regulations
+- Smart contracts carry inherent risks despite audits
+- Always verify contract addresses on BSCScan before interacting
+
+---
+
+## 🐝 Join the Hive
+
+Ready to make your predictions count?
+
+- **🌐 Website:** Coming soon — hivebets.io
+- **🐦 Twitter:** [@Hivebetsbnb](https://x.com/Hivebetsbnb)
+- **💬 Discord:** Join our community (link coming soon)
+- **📱 Telegram:** Connect with fellow predictors (link coming soon)
+- **🔗 GitHub:** [lexie23c/Hivebets](https://github.com/lexie23c/Hivebets)
+
+**Built for the trenches. Powered by the hive. 🔥**
 
 ---
 
@@ -331,25 +252,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## ⚠️ Disclaimer
-
-**Prediction markets involve risk. You can lose your entire bet.**
-
-- Only bet what you can afford to lose
-- Not financial advice
-- Users must comply with local laws and regulations
-- Smart contracts carry inherent risks
-- Always verify contract addresses on BSCScan
-
----
-
-## 🔗 Links
-
-- **GitHub**: https://github.com/lexie23c/Hivebets
-- **Twitter**: https://x.com/Hivebetsbnb
-- **BSCScan**: https://bscscan.com/
-- **Hardhat Docs**: https://hardhat.org/
-
----
-
-**Built for the trenches. 🔥**
+*HiveBets — Where collective wisdom meets blockchain immutability.*

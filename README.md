@@ -29,7 +29,9 @@ Whether you're predicting the next Four.meme token to moon, BNB hitting a price 
 - **📊 Multi-Source Oracle** — Real-time data from BSCScan, Four.meme API, CoinGecko, and DexScreener.
 - **🎯 Diverse Market Types** — Token market caps, price targets, and social signal predictions.
 - **🏆 Parimutuel Betting** — Winners split the losing pool fairly. No house edge.
-- **🛡️ Anti-Manipulation** — Max bet limits prevent whale dominance.
+- **🛡️ Anti-Manipulation** — Max 0.1 BNB per wallet per side prevents whale dominance.
+- **💸 Cashback System** — Earn cashback on every bet, win or lose.
+- **🤝 Referral Rewards** — Invite friends and earn from their betting volume.
 - **📱 Simple UX** — Connect wallet, place bet, claim winnings. That's it.
 
 ---
@@ -40,11 +42,14 @@ Getting started with HiveBets takes less than 2 minutes:
 
 1. **Connect Your Wallet** — Use MetaMask, Rabby, or any WalletConnect-compatible wallet on BNB Chain.
 2. **Browse Markets** — Check out active prediction markets across tokens, prices, and events.
-3. **Place Your Bet** — Choose YES or NO, enter your BNB amount (0.001 - 0.1 BNB per market).
-4. **Wait for Outcome** — Markets auto-resolve after the deadline using our oracle system.
-5. **Claim Rewards** — If you predicted correctly, claim your winnings instantly.
+3. **Place Your Bet** — Choose YES or NO, enter your BNB amount (up to 0.1 BNB per side).
+4. **Get Your Cashback** — Earn instant cashback on every bet.
+5. **Wait for Outcome** — Markets auto-resolve after the deadline using our oracle system.
+6. **Claim Rewards** — If you predicted correctly, claim your winnings + cashback instantly.
 
 *No KYC. No registration. No hassle.*
+
+**🎁 Pro Tip:** Use a referral link to earn extra rewards when your friends bet!
 
 ---
 
@@ -78,9 +83,11 @@ Community-created markets for any verifiable outcome.
 |---------|----------|----------------------|
 | **Custody** | Non-custodial (you control funds) | Custodial (platform holds your money) |
 | **Transparency** | 100% on-chain, verifiable | Opaque backend systems |
-| **Fees** | 2% on winnings only | 5-20% house edge + withdrawal fees |
+| **Fees** | 2% on winnings + cashback rewards | 5-20% house edge + withdrawal fees |
+| **Rewards** | Cashback on every bet + referral bonuses | None |
 | **Settlement** | Instant, automatic | Delayed, manual approval |
 | **Trust** | Smart contracts | Platform reputation |
+| **Max Bet** | 0.1 BNB per side (fair access) | Unlimited (favors whales) |
 
 ### Why We're Different
 
@@ -188,6 +195,7 @@ npx hardhat run scripts/placeBet.js --network bsctest <market-address> yes 0.05
 ## 📖 Documentation
 
 - 📘 [Quick Start Guide](QUICK_START.md)
+- 💸 [Cashback & Referral Rewards](REWARDS.md)
 - 📘 [Oracle Integration Guide](docs/ORACLE_INTEGRATION.md)
 - 📘 [Smart Contract Documentation](docs/README.md)
 - 📘 [FAQ](docs/getting-started/faq.md)

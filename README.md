@@ -92,7 +92,7 @@ npx hardhat run scripts/oracleDataFeed.js --network bsctest --continuous
 ### Core Contracts
 - **BinaryMarketV2_Fixed.sol** - Individual prediction market with oracle integration
 - **MarketFactoryV2.sol** - Factory for creating new markets
-- **TellorPlayground.sol** - Oracle data storage contract for testnet
+- **HivebetsOracle.sol** - HiveBets proprietary oracle system for data feeds
 
 ### Deploy Factory
 
@@ -193,7 +193,7 @@ Hivebets/
 ├── contracts/              # Solidity smart contracts
 │   ├── BinaryMarketV2_Fixed.sol
 │   ├── MarketFactoryV2.sol
-│   └── TellorPlayground.sol
+│   └── HivebetsOracle.sol
 ├── scripts/               # Deployment and interaction scripts
 │   ├── oracleDataFeed.js  # Multi-source oracle feed
 │   ├── deployFactoryV2.js

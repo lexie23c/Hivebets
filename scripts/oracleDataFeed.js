@@ -7,9 +7,9 @@ const hre = require("hardhat");
 const { ethers } = hre;
 const axios = require('axios');
 
-// Configuration
+  // Configuration
 const CONFIG = {
-  tellorPlayground: "0x0346C9998600Fde7bE073b72902b70cfDc671908",
+  hivebetsOracle: "0x0346C9998600Fde7bE073b72902b70cfDc671908", // HiveBets Oracle contract
   
   // Four.meme tokens to track
   fourmemeTokens: [
@@ -57,10 +57,10 @@ class OracleDataFeed {
   async initialize() {
     [this.signer] = await ethers.getSigners();
     this.playground = await ethers.getContractAt(
-      "TellorPlayground", 
-      CONFIG.tellorPlayground
+      "HivebetsOracle", 
+      CONFIG.hivebetsOracle
     );
-    console.log("🔧 Oracle Data Feed initialized");
+    console.log("🔧 HiveBets Oracle Data Feed initialized");
     console.log("Signer:", await this.signer.getAddress());
   }
 
@@ -223,7 +223,7 @@ class OracleDataFeed {
     );
     const queryId = ethers.keccak256(queryData);
     
-    // Market cap with 8 decimals (Tellor standard for USD values)
+    // Market cap with 8 decimals (HiveBets oracle standard for USD values)
     const mcapValue = ethers.parseUnits(marketCapUsd.toFixed(2), 8);
     
     const valueBytes = ethers.AbiCoder.defaultAbiCoder().encode(

@@ -29,7 +29,7 @@ HiveBets is a **trustless prediction market platform** where users can bet on:
 ### ✅ Fully Decentralized
 - Smart contracts on BSC Mainnet
 - Non-custodial (you control your funds)
-- Automatic oracle resolution via Tellor
+- Automatic oracle resolution with multi-source data feeds
 
 ### ✅ Fair & Transparent
 - All bets recorded on-chain
@@ -220,11 +220,11 @@ Hivebets/
 
 ### BSC Testnet
 - **Factory**: TBD (deploy using `deployFactoryV2.js`)
-- **Tellor Oracle**: `0x0346C9998600Fde7bE073b72902b70cfDc671908`
+- **RPC**: https://data-seed-prebsc-1-s1.binance.org:8545/
 
 ### BSC Mainnet
 - **Factory**: TBD
-- **Tellor Oracle**: `0xD9157453E2668B2fc45b7A803D3FEF3642430cC0`
+- **RPC**: https://bsc-dataseed.binance.org/
 
 ---
 
@@ -352,4 +352,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Built for the trenches. Powered by Tellor. 🔥**
+**Built for the trenches. 🔥**

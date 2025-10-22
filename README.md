@@ -92,7 +92,7 @@ npx hardhat run scripts/oracleDataFeed.js --network bsctest --continuous
 ### Core Contracts
 - **BinaryMarketV2_Fixed.sol** - Individual prediction market with oracle integration
 - **MarketFactoryV2.sol** - Factory for creating new markets
-- **TellorPlayground.sol** - Oracle contract for testnet
+- **TellorPlayground.sol** - Oracle data storage contract for testnet
 
 ### Deploy Factory
 

@@ -15,8 +15,8 @@ Bet on token prices, market caps, social events, and more - with instant cashbac
 
 * **Trustless Betting** - All bets secured by smart contracts
 * **Multiple Market Types** - Tokens, prices, social signals
-* **Cashback System** - 0.2% cashback on every bet
-* **Referral Rewards** - Earn 0.1% from referred bets
+* **Cashback System** - 10% cashback on every bet
+* **Referral Rewards** - Earn 15% from referred bets
 * **Transparent Oracle** - Multi-source data verification
 
 ## Quick Start

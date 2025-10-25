@@ -1,11 +1,15 @@
 # Table of contents
 
 * [Introduction](README.md)
+
+## Getting Started
+
 * [The Problem](getting-started/the-problem.md)
+* [Quick Start](getting-started/quick-start.md)
 
 ## Market Context
 
-* [The Four.meme Market](market-context/four-meme.md)
+* [BSC Token Markets](market-context/four-meme.md)
 * [The Liquidity Gap](market-context/liquidity-gap.md)
 
 ## Protocol Mechanics
@@ -17,7 +21,7 @@
 
 ## How to Use
 
-* [Getting Started](getting-started/quick-start.md)
+* [Getting Started](markets/how-to-bet.md)
 * [Placing Bets](markets/how-to-bet.md)
 * [Understanding Odds](markets/understanding-odds.md)
 * [Claiming Winnings](markets/claiming.md)

@@ -4,20 +4,53 @@ View all currently active prediction markets on HiveBets.
 
 ---
 
-## Overview
+## Live Markets
 
-HiveBets offers prediction markets for **Four.meme tokens** launched on BNB Chain.
+### 1. BNB → $1,300
+**Deadline:** October 26, 2025 at 8:00 PM ET  
+**Question:** Will BNB trade above $1,300?  
+**Max Bet:** 10 BNB per wallet  
+**Contract:** [`0x0Dccb3Be0CDA891bC0082b140e0DE43fC13Bfc40`](https://bscscan.com/address/0x0Dccb3Be0CDA891bC0082b140e0DE43fC13Bfc40)
 
-Each market asks a simple question:
-**"Will this token reach [target market cap] before [deadline]?"**
+### 2. 币安人生 → $300M Market Cap
+**Deadline:** October 26, 2025 at 10:00 PM ET  
+**Question:** Will 币安人生 reach $300M market cap?  
+**Max Bet:** 10 BNB per wallet  
+**Contract:** [`0xd055f4D1af414E2880BA71f55024d0Ce44075AA4`](https://bscscan.com/address/0xd055f4D1af414E2880BA71f55024d0Ce44075AA4)
 
-### Market Types
+### 3. CZ Tweet About Aster
+**Deadline:** October 31, 2025 at 8:00 PM ET  
+**Question:** Will CZ tweet about Aster?  
+**Max Bet:** 10 BNB per wallet  
+**Contract:** [`0x1fe579419787CF48e918ABAb684d9792dfE1AC37`](https://bscscan.com/address/0x1fe579419787CF48e918ABAb684d9792dfE1AC37)
 
-**Market Cap Predictions**
-- Common targets: $10M, $50M, $100M, $444M
-- Fixed deadlines (typically 30-90 days)
-- Max bet: 0.1 BNB per wallet
-- Platform fee: 2%
+### 4. PALU → $40M Market Cap
+**Deadline:** October 26, 2025 at 8:00 PM ET  
+**Question:** Will PALU trade above $40M?  
+**Max Bet:** 10 BNB per wallet  
+**Contract:** [`0xc838f181FE484628cd5fe2eF4c64890D979B480C`](https://bscscan.com/address/0xc838f181FE484628cd5fe2eF4c64890D979B480C)
+
+### 5. $4 Binance Spot Listing
+**Deadline:** October 31, 2025 at 10:00 PM ET  
+**Question:** Will $4 get Binance spot listing?  
+**Max Bet:** 10 BNB per wallet  
+**Contract:** [`0x8D4f714931f7b23d9265f20F650E8FdfD03f37e3`](https://bscscan.com/address/0x8D4f714931f7b23d9265f20F650E8FdfD03f37e3)
+
+---
+
+## Market Types
+
+**Token Market Caps**
+- Bet on whether tokens reach specific valuations
+- Verified via DexScreener & on-chain data
+
+**Price Targets**
+- Predict if assets hit key price levels
+- Data from BSCScan & CoinGecko
+
+**Social Events**
+- CZ tweets, Binance listings, and more
+- Verified via Twitter API & official announcements
 
 ---
 
@@ -32,12 +65,12 @@ Each market asks a simple question:
 
 ## Market Resolution
 
-All markets are resolved automatically via **Tellor Oracle**:
+All markets are resolved via **HiveBets Oracle**:
 
-✅ **Trustless** - No human intervention  
-✅ **Transparent** - All data on-chain  
-✅ **Fast** - Immediate after deadline  
-✅ **Fair** - Oracle-verified market cap data  
+- **Trustless** - Smart contract enforced
+- **Transparent** - All data on-chain
+- **Multi-Source** - BSCScan, DexScreener, CoinGecko
+- **Verifiable** - Anyone can check oracle data  
 
 ---
 

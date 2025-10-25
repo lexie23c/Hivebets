@@ -1,4 +1,4 @@
-# 🚀 HiveBets Mainnet Deployment
+# HiveBets Mainnet Deployment
 
 **Deployment Date:** October 25, 2025  
 **Network:** BSC Mainnet (Chain ID: 56)  
@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 Deployed Contracts
+## Deployed Contracts
 
 ### Core Infrastructure
 
@@ -17,7 +17,7 @@
 
 ---
 
-## 🎯 Live Markets
+## Live Markets
 
 ### Market 1: BNB → $1,300
 - **Address:** `0x0Dccb3Be0CDA891bC0082b140e0DE43fC13Bfc40`
@@ -63,7 +63,7 @@
 
 ---
 
-## 💰 Platform Features
+## Platform Features
 
 - **Max Bet:** 10 BNB per wallet per side
 - **Trading Fee:** 2% on winnings
@@ -73,7 +73,7 @@
 
 ---
 
-## 🔧 Technical Details
+## Technical Details
 
 ### Smart Contract Architecture
 - **Factory Pattern:** Deploys individual market contracts
@@ -88,7 +88,7 @@
 
 ---
 
-## ⚠️ Important Notes
+## Important Notes
 
 1. **Oracle Funding:** Fund oracle with BNB for gas to submit data
 2. **Resolution:** Markets need manual/automated resolution after deadline
@@ -99,7 +99,7 @@
 
 ---
 
-## 🌐 Links
+## Links
 
 - **Website:** https://hivebets.xyz
 - **Twitter:** https://x.com/Hivebetsbnb
@@ -108,7 +108,7 @@
 
 ---
 
-## 📊 Gas Costs Summary
+## Gas Costs Summary
 
 - Oracle Deployment: ~0.0017 BNB
 - Factory Deployment: ~0.0018 BNB

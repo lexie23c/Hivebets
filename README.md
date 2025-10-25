@@ -98,7 +98,7 @@ Community-created markets for any verifiable outcome.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Technology |
 |-----------|-----------|
@@ -153,7 +153,7 @@ npx hardhat run scripts/placeBet.js --network bsctest <market-address> yes 0.05
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────┐
@@ -182,7 +182,7 @@ npx hardhat run scripts/placeBet.js --network bsctest <market-address> yes 0.05
 
 ---
 
-## 🔒 Security
+## Security
 
 - ✅ **Audited Contracts** — Built on battle-tested OpenZeppelin standards
 - ✅ **ReentrancyGuard** — Protected against reentrancy attacks
@@ -192,7 +192,7 @@ npx hardhat run scripts/placeBet.js --network bsctest <market-address> yes 0.05
 
 ---
 
-## 📖 Documentation
+## Documentation
 
 - 📘 [Quick Start Guide](QUICK_START.md)
 - 💸 [Cashback & Referral Rewards](REWARDS.md)
@@ -216,7 +216,7 @@ npx hardhat run scripts/placeBet.js --network bsctest <market-address> yes 0.05
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions from the community! To contribute:
 
@@ -228,7 +228,7 @@ We welcome contributions from the community! To contribute:
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 **Prediction markets involve risk. You can lose your entire bet.**
 
@@ -254,7 +254,7 @@ Ready to make your predictions count?
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 

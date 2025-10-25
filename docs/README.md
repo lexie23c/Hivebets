@@ -1,3 +1,8 @@
+---
+cover: .gitbook/assets/hivebetsbanner.png
+coverY: 0
+---
+
 # Introduction
 
 **HiveBets** is a decentralized prediction market platform on Binance Smart Chain where you can bet on real-world outcomes.
@@ -8,11 +13,11 @@ Bet on token prices, market caps, social events, and more - with instant cashbac
 
 ### Key Features
 
-- **Trustless Betting** - All bets secured by smart contracts
-- **Multiple Market Types** - Tokens, prices, social signals
-- **Cashback System** - 0.2% cashback on every bet
-- **Referral Rewards** - Earn 0.1% from referred bets
-- **Transparent Oracle** - Multi-source data verification
+* **Trustless Betting** - All bets secured by smart contracts
+* **Multiple Market Types** - Tokens, prices, social signals
+* **Cashback System** - 0.2% cashback on every bet
+* **Referral Rewards** - Earn 0.1% from referred bets
+* **Transparent Oracle** - Multi-source data verification
 
 ## Quick Start
 
@@ -22,4 +27,3 @@ Bet on token prices, market caps, social events, and more - with instant cashbac
 4. Claim winnings after resolution
 
 [Get Started →](getting-started/quick-start.md)
-

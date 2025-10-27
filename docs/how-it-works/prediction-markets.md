@@ -1,48 +1,30 @@
-# Prediction Markets Explained
+# System Overview
 
 ## What is a Prediction Market?
 
 A prediction market is a market where people bet on the outcome of future events. Participants buy and sell shares representing different outcomes, and the market price reflects the collective probability of each outcome.
 
 ### Generic Prediction Markets:
-- Will candidate X win the election? (Polymarket)
-- Will a sports team win the championship? (PredictIt)
-- Will a company's stock reach $100? (Augur)
 
-### HiveBets' Unique Focus:
-**Will a Four.meme token reach a specific market cap by a deadline?**
+* Will candidate X win the election? (Polymarket)
+* Will a sports team win the championship? (PredictIt)
+* Will a company's stock reach $100? (Augur)
 
-## Why Four.meme Tokens Only?
 
-### 🎯 HiveBets is Different
-
-Unlike broad prediction markets that cover everything from politics to sports, **HiveBets exclusively focuses on Four.meme tokens** on BNB Chain.
-
-**This isn't a limitation—it's our superpower.**
-
-### The Trenches Meta Explosion
-
-**Four.meme has become THE dominant force** on BNB Chain:
-- 🔥 "Trenches" culture driving billions in volume
-- 🚀 Daily token launches with explosive potential
-- 💎 Community-driven momentum like no other platform
-- 📈 Multiple tokens reaching $100M+ market caps
-
-**We're specialized for this exact meta.**
 
 ### Advantages of Specialization
 
-| Generic Markets | HiveBets (Four.meme Focus) |
-|-----------------|--------------------------------|
-| Predict everything | Predict one thing really well |
-| No domain expertise | Deep understanding of trenches |
-| Generic oracle data | BSC memecoin-optimized data |
+| Generic Markets        | HiveBets (Four.meme Focus)     |
+| ---------------------- | ------------------------------ |
+| Predict everything     | Predict one thing really well  |
+| No domain expertise    | Deep understanding of trenches |
+| Generic oracle data    | BSC memecoin-optimized data    |
 | Broad, shallow markets | Deep, liquid Four.meme markets |
-| Unfocused community | Trenches-native community |
+| Unfocused community    | Trenches-native community      |
 
 **Bottom line**: We're not trying to be everything to everyone. We're the best at predicting Four.meme token success on BNB Chain.
 
----
+***
 
 ## How HiveBets Markets Work
 
@@ -69,39 +51,45 @@ If YES wins: YES bettors split 5 BNB (NO pool) proportionally
 If NO wins: NO bettors split 10 BNB (YES pool) proportionally
 ```
 
----
+***
 
 ## Betting Lifecycle
 
 ### Phase 1: Open Market
+
 **Duration**: From market creation → deadline
 
 Users can:
-- ✅ Place bets on YES or NO
-- ✅ See live odds
-- ✅ Check pool sizes
-- ❌ Cannot withdraw bets
-- ❌ Cannot change bets
+
+* &#x20;Place bets on YES or NO
+* &#x20;See live odds
+* &#x20;Check pool sizes
+* &#x20;Cannot withdraw bets
+* &#x20;Cannot change bets
 
 ### Phase 2: Waiting for Resolution
+
 **Duration**: Deadline → resolution trigger
 
 Market status:
-- ❌ Betting closed (deadline passed)
-- ⏳ Awaiting oracle data
-- ⏳ Buffer period (1 hour)
-- ❌ No claims yet
+
+* &#x20;Betting closed (deadline passed)
+* &#x20;Awaiting oracle data
+* &#x20;Buffer period (1 hour)
+* &#x20;No claims yet
 
 ### Phase 3: Resolved
+
 **Duration**: After resolution → forever
 
 Market outcome:
-- ✅ Final outcome determined (YES or NO)
-- ✅ Winners can claim payouts
-- ✅ Losers get nothing
-- ❌ No more changes possible
 
----
+* &#x20;Final outcome determined (YES or NO)
+* &#x20;Winners can claim payouts
+* &#x20;Losers get nothing
+* &#x20;No more changes possible
+
+***
 
 ## How Outcomes Are Determined
 
@@ -110,37 +98,34 @@ HiveBets uses **Tellor Oracle** for trustless resolution:
 ### Oracle Resolution Process
 
 1. **Deadline Passes**
-   - No more bets allowed
-   - Market enters buffer period
-
+   * No more bets allowed
+   * Market enters buffer period
 2. **Buffer Period (1 hour)**
-   - Ensures oracle data is available
-   - Prevents frontrunning
-
+   * Ensures oracle data is available
+   * Prevents frontrunning
 3. **Anyone Triggers Resolution**
-   - Calls `resolveFromTellor()` function
-   - No special permissions needed
-
+   * Calls `resolveFromTellor()` function
+   * No special permissions needed
 4. **Oracle Checks Data**
-   - Fetches market cap from Tellor
-   - Compares to target
-   - Returns YES or NO
-
+   * Fetches market cap from Tellor
+   * Compares to target
+   * Returns YES or NO
 5. **Market Settles**
-   - Outcome recorded on-chain
-   - Winners can claim
-   - Process complete
+   * Outcome recorded on-chain
+   * Winners can claim
+   * Process complete
 
 [Learn more about Oracle Resolution →](oracle-resolution.md)
 
----
+***
 
 ## Parimutuel System
 
 HiveBets uses **parimutuel betting**, where:
-- All bets go into a pool
-- Winners split the losing pool
-- No house odds or bookmaker
+
+* All bets go into a pool
+* Winners split the losing pool
+* No house odds or bookmaker
 
 ### Example Calculation
 
@@ -171,7 +156,7 @@ Scenario 2: NO Wins
 
 [Learn more about Parimutuel Betting →](parimutuel.md)
 
----
+***
 
 ## Smart Contract Architecture
 
@@ -203,119 +188,135 @@ Scenario 2: NO Wins
                │ Reads from
                ▼
 ┌─────────────────────────────────────┐
-│      Tellor Oracle                  │
+│      hivebets Oracle                  │
 │  (Decentralized Data Provider)      │
 │                                     │
 │  Provides: Token market cap data    │
 └─────────────────────────────────────┘
 ```
 
----
+***
 
 ## Key Principles
 
 ### 1. Trustless
+
 No central authority controls market outcomes. Smart contracts and oracles handle everything automatically.
 
 ### 2. Transparent
+
 All bets, pools, and outcomes are visible on the blockchain. Anyone can verify.
 
 ### 3. Non-Custodial
+
 We never hold your funds. Everything happens through smart contract interactions you approve.
 
 ### 4. Automated
+
 Markets resolve automatically using oracle data. No manual intervention required.
 
 ### 5. Fair
+
 Max bet limits prevent whale manipulation. Parimutuel system ensures fair odds.
 
----
+***
 
 ## Advantages Over Traditional Prediction Markets
 
-| Feature | HiveBets | Traditional |
-|---------|--------------|-------------|
-| **Trust** | Trustless (smart contracts) | Requires trust in platform |
-| **Transparency** | 100% on-chain | Opaque backend |
-| **Resolution** | Automated (oracle) | Manual or subjective |
-| **Fees** | 2% on winnings | 5-10%+ on all bets |
-| **Custody** | Non-custodial | Platform holds funds |
-| **Censorship** | Resistant | Can ban users |
-| **Verification** | Anyone can verify | Must trust platform |
+| Feature          | HiveBets                    | Traditional                |
+| ---------------- | --------------------------- | -------------------------- |
+| **Trust**        | Trustless (smart contracts) | Requires trust in platform |
+| **Transparency** | 100% on-chain               | Opaque backend             |
+| **Resolution**   | Automated (oracle)          | Manual or subjective       |
+| **Fees**         | 2% on winnings              | 5-10%+ on all bets         |
+| **Custody**      | Non-custodial               | Platform holds funds       |
+| **Censorship**   | Resistant                   | Can ban users              |
+| **Verification** | Anyone can verify           | Must trust platform        |
 
----
+***
 
 ## Common Use Cases
 
 ### Speculation
+
 "I think 哈基米 will moon before October. Let me bet on it!"
 
 ### Hedging
+
 "I bought 哈基米 tokens. Let me bet NO to hedge my risk."
 
 ### Market Research
+
 "What does the crowd think? Let me check the odds."
 
 ### Arbitrage
+
 "Odds are mispriced. There's an opportunity here."
 
----
+***
 
 ## Market Dynamics
 
 ### Early vs Late Betting
 
 **Early Bets** (right after market creation):
-- ✅ Better odds (less competition)
-- ✅ More time for research
-- ❌ More uncertainty
-- ❌ Longer wait for resolution
+
+* &#x20;Better odds (less competition)
+* &#x20;More time for research
+* &#x20;More uncertainty
+* &#x20;Longer wait for resolution
 
 **Late Bets** (near deadline):
-- ✅ More information available
-- ✅ Shorter wait for results
-- ❌ Worse odds (pools already filled)
-- ❌ Less time to react
+
+* &#x20;More information available
+* &#x20;Shorter wait for results
+* &#x20;Worse odds (pools already filled)
+* &#x20;Less time to react
 
 ### Odds Movement
 
 Odds change as bets are placed:
-- More YES bets → YES odds decrease (worse payout)
-- More NO bets → YES odds increase (better payout)
-- Self-balancing mechanism
 
----
+* More YES bets → YES odds decrease (worse payout)
+* More NO bets → YES odds increase (better payout)
+* Self-balancing mechanism
+
+***
 
 ## Safety Features
 
 ### Max Bet Limits
+
 **0.1 BNB per wallet per side** prevents:
-- Whale manipulation
-- Market cornering
-- Unfair advantage for big players
+
+* Whale manipulation
+* Market cornering
+* Unfair advantage for big players
 
 ### Deadline Enforcement
-- No bets after deadline
-- Prevents frontrunning oracle
-- Ensures fair resolution
+
+* No bets after deadline
+* Prevents frontrunning oracle
+* Ensures fair resolution
 
 ### Cancellation Protection
-- Markets can only be cancelled before deadline
-- If cancelled, 100% refunds to all bettors
-- Prevents rug pulls after outcome known
 
----
+* Markets can only be cancelled before deadline
+* If cancelled, 100% refunds to all bettors
+* Prevents rug pulls after outcome known
+
+***
 
 ## Next Steps
 
 Learn more about specific aspects:
 
-📊 [Parimutuel Betting](parimutuel.md) - How payouts are calculated  
-🔮 [Oracle Resolution](oracle-resolution.md) - How markets resolve  
-💰 [Platform Fees](fees.md) - Fee structure explained  
-📋 [Market Rules](../markets/rules.md) - Complete market rules  
+&#x20;[Parimutuel Betting](parimutuel.md) - How payouts are calculated\
+&#x20;[Oracle Resolution](oracle-resolution.md) - How markets resolve\
+&#x20;[Platform Fees](fees.md) - Fee structure explained
 
----
+[Market Rules](../markets/rules.md) - Complete market rules
+
+***
 
 **Ready to bet?** [Place your first bet →](../getting-started/quick-start.md)
-

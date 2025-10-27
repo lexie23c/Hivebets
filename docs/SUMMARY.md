@@ -28,7 +28,6 @@
 
 ## Market Rules
 
-* [Active Markets](markets/active-markets.md)
 * [Market Guidelines](markets/rules.md)
 
 ## Legal & Compliance

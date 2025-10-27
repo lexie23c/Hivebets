@@ -26,7 +26,7 @@ You'll need BNB (Binance Coin) to:
    * Buy BNB
 2. **Withdraw to Your Wallet**
    * Network: **BNB Smart Chain (BSC)** or **BEP20**
-   * ⚠️ NOT Ethereum! NOT BEP2!
+   * &#x20;NOT Ethereum! NOT BEP2!
    * Paste your wallet address
    * Confirm withdrawal
 3. **Wait for Confirmation**
@@ -172,54 +172,25 @@ Step 14: Profit: 0.0676 BNB (~$85 @ $1250/BNB)
 
 ***
 
-## Tips for Beginners
 
-### 🎯 Start Small
-
-* Your first bet should be 0.01 BNB or less
-* Get comfortable with the process
-* Scale up as you learn
-
-### 📊 Watch the Odds
-
-* Odds change as people bet
-* Better to bet early if you have conviction
-* Late bets face less favorable odds
-
-### ⏰ Mind the Deadline
-
-* No bets allowed after deadline
-* Plan ahead!
-
-### 💡 Understand the Risk
-
-* You can lose your entire bet
-* Only bet what you can afford to lose
-* Prediction markets are speculative
-
-### 🧮 Calculate Your Upside
-
-* Check potential payout before betting
-* Compare payouts between YES and NO
-* Consider the risk/reward ratio
 
 ***
 
 ## Common Issues
 
-### ❌ "Wrong Network"
+### &#x20;"Wrong Network"
 
 **Solution**: Switch to BSC Mainnet in your wallet
 
-### ❌ "Insufficient Funds"
+### "Insufficient Funds"
 
 **Solution**: Get more BNB or reduce bet amount
 
-### ❌ "Transaction Failed"
+### &#x20;"Transaction Failed"
 
 **Solution**: Increase gas limit or try again
 
-### ❌ "Exceeds Maximum"
+### "Exceeds Maximum"
 
 **Solution**: Max bet is 0.1 BNB per wallet
 

@@ -25,9 +25,9 @@ Unlike generic prediction markets, HiveBets specializes exclusively in Four.meme
 
 By focusing on Four.meme:
 
-✅ Curated selection of tokens\
-✅ Clear prediction outcomes\
-✅ Specialized expertise\
-✅ Transparent on-chain data
+&#x20;Curated selection of tokens\
+&#x20;Clear prediction outcomes\
+&#x20;Specialized expertise\
+&#x20;Transparent on-chain data
 
 **We don't predict everything. We predict Four.meme token outcomes.**

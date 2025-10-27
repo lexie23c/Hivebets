@@ -53,21 +53,7 @@ You'll need BNB (Binance Coin) to:
 
 ## Step 3: Browse Markets
 
-Explore available prediction markets on the homepage.
-
-### Current Markets:
-
-**哈基米 (Hakimi)**
-
-* Question: Will 哈基米 reach $100M mcap before October 30?
-* Deadline: October 30, 2025
-* Current Odds: Live on-chain
-
-**$4 Token**
-
-* Question: Will $4 hit $444M mcap before October 30?
-* Deadline: October 30, 2025
-* Current Odds: Live on-chain
+Explore available prediction markets on the homepage
 
 Each market shows:
 
@@ -100,7 +86,7 @@ Each market shows:
    * Usually takes 5-10 seconds
    * You'll see a success message
 
-✅ **Bet Placed!**
+**Bet Placed!**
 
 ***
 
@@ -143,9 +129,9 @@ After the market resolves:
    * Pay gas fee (\~$0.10)
 4. **Receive Payout**
    * BNB sent to your wallet
-   * Minus 2% platform fee
+   * Minus .5% platform fee
 
-✅ **Congratulations!** You've successfully used HiveBets!
+**Congratulations!** You've successfully used HiveBets!
 
 ***
 
@@ -163,7 +149,7 @@ Step 6: Click "YES" (you think it'll reach $100M)
 Step 7: Confirm in MetaMask
 Step 8: Bet placed! Watch odds update
 Step 9: October 30 passes
-Step 10: Oracle checks: 哈基米 reached $110M ✅
+Step 10: Oracle checks: 哈基米 reached $110M 
 Step 11: Market resolves to YES
 Step 12: Click "Claim Winnings"
 Step 13: Receive 0.12 BNB (minus 2% fee = 0.1176 BNB)
@@ -200,9 +186,9 @@ Step 14: Profit: 0.0676 BNB (~$85 @ $1250/BNB)
 
 Now that you know the basics:
 
-📚 Learn about [Parimutuel Betting](../how-it-works/parimutuel.md)\
-🔮 Understand [Oracle Resolution](../how-it-works/oracle-resolution.md)\
-📋 Read [Market Rules](../markets/rules.md)
+Learn about [Parimutuel Betting](../how-it-works/parimutuel.md)\
+Understand [Oracle Resolution](../how-it-works/oracle-resolution.md)\
+Read [Market Rules](../markets/rules.md)
 
 ***
 

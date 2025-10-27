@@ -376,12 +376,12 @@ Reporters stake TRB tokens. Bad data = loss of stake.
 
 ## Comparison to Alternatives
 
-| Oracle Type         | Pros                          | Cons                            | HiveBets Choice      |
-| ------------------- | ----------------------------- | ------------------------------- | -------------------- |
-| **Hivebets**        | Decentralized, proven, on BSC | Requires reporters              | ✅ **Primary**        |
-| **Chainlink**       | Most established              | Not specialized for custom data | ❌ Not used           |
-| **Manual Only**     | Simple                        | Requires trust                  | ⚠️ **Fallback only** |
-| **Snapshot Oracle** | Free                          | Centralized                     | ❌ Not used           |
+| Oracle Type         | Pros                          | Cons                            | HiveBets Choice    |
+| ------------------- | ----------------------------- | ------------------------------- | ------------------ |
+| **Hivebets**        | Decentralized, proven, on BSC | Requires reporters              | **Primary**        |
+| **Chainlink**       | Most established              | Not specialized for custom data |  Not used          |
+| **Manual Only**     | Simple                        | Requires trust                  |  **Fallback only** |
+| **Snapshot Oracle** | Free                          | Centralized                     |  Not used          |
 
 ***
 

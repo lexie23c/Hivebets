@@ -17,7 +17,7 @@ You can claim winnings **immediately** after a market resolves, if you bet on th
    ↓
 3. Market Resolves (via oracle or manually)
    ↓
-4. Claims Open ✅
+4. Claims Open 
 ```
 
 ### Check Market Status

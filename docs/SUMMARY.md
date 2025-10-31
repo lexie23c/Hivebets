@@ -15,9 +15,12 @@
 ## Protocol Mechanics
 
 * [System Overview](how-it-works/prediction-markets.md)
+* [x402 Gasless Betting](how-it-works/x402-gasless-betting.md)
 * [Parimutuel Pools](how-it-works/parimutuel.md)
 * [Oracle Integration](how-it-works/oracle-resolution.md)
 * [Platform Fees](how-it-works/fees.md)
+* [Cashback System](how-it-works/cashback-system.md)
+* [Referral System](how-it-works/referral-system.md)
 
 ## How to Use
 

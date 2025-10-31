@@ -55,12 +55,12 @@ async function main() {
   // Deploy factory with x402 support
   const MarketFactoryV2 = await hre.ethers.getContractFactory("MarketFactoryV2");
   
-  const tellorOracle = "0x..."; // Your Tellor oracle address
+  const hivebetsOracle = "0x..."; // Your Hivebets Oracle address
   const defaultResolver = deployer.address;
   const facilitator = "0x..."; // Your facilitator wallet address
   
   const factory = await MarketFactoryV2.deploy(
-    tellorOracle,
+    hivebetsOracle,
     defaultResolver,
     facilitator
   );

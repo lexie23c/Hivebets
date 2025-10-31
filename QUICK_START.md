@@ -1,211 +1,232 @@
-# Quick Start Guide - Enhanced Oracle System
+# HiveBets Quick Start Guide
 
-## 🎯 What's New?
+Get started with HiveBets prediction markets in under 2 minutes.
 
-Your oracle system now supports:
+---
 
-1. **Multiple Four.meme Tokens** - Track any number of Four.meme tokens
-2. **Real-time BNB Price** - Create BNB price prediction markets  
-3. **CZ Binance Tweets** - Markets based on CZ's Twitter activity
+## What You'll Need
 
-## 🚀 Get Started in 3 Steps
+- A Web3 wallet (MetaMask, Rabby, or WalletConnect-compatible)
+- BNB on BNB Chain (BSC Mainnet) for betting
+- No gas fees required thanks to x402 gasless betting
 
-### Step 1: Install Dependencies
+---
 
-```bash
-npm install axios
-```
+## Step 1: Connect Your Wallet
 
-### Step 2: Start Oracle Data Feed
+1. Visit the HiveBets platform
+2. Click "Connect Wallet" in the top right
+3. Select your wallet provider:
+   - **MetaMask** - Most popular browser extension wallet
+   - **Rabby** - Advanced multi-chain wallet
+   - **WalletConnect** - Mobile wallets and other providers
+4. Approve the connection request
+5. Ensure you're on BNB Chain (Chain ID: 56)
 
-This keeps your markets updated with real-time data:
+---
 
-```bash
-npx hardhat run scripts/oracleDataFeed.js --network bsctest --continuous
-```
+## Step 2: Browse Active Markets
 
-Leave this running in the background. It updates every 60 seconds with:
-- Four.meme token market caps
-- BNB/USD price
-- Status checks
+Once connected, you'll see all active prediction markets:
 
-### Step 3: Create Your First Market
+- **Token Market Caps** - Will X token reach Y market cap?
+- **Price Targets** - Will BNB hit $1,200?
+- **Social Events** - Will CZ tweet about Giggle?
+- **Spot Listings** - Will $4 get spot listing?
 
-**Option A: Four.meme Token Market**
-```bash
-npx hardhat run scripts/createMarket_4Token.js --network bsctest
-```
+Each market shows:
+- Current odds (YES/NO percentages)
+- Total betting volume
+- Time remaining until deadline
+- Live countdown timer
 
-**Option B: BNB Price Market**
-```bash
-npx hardhat run scripts/createMarket_BNBPrice.js --network bsctest
-```
+---
 
-**Option C: CZ Tweet Market**
-```bash
-npx hardhat run scripts/createMarket_CZTweet.js --network bsctest 1
-```
+## Step 3: Place a Bet (Gasless with x402)
 
-## 📊 Monitor Your Markets
+1. Click on any market card
+2. Choose your prediction: **YES** or **NO**
+3. Enter your bet amount in BNB
+4. Toggle **Gasless Betting** (powered by x402)
+5. Click "Place Bet"
+6. **Sign the message** in your wallet (no gas required)
+7. Done! Your bet is submitted without paying gas fees
 
-```bash
-npx hardhat run scripts/previewMarketV2.js --network bsctest <market-address>
-```
+### Traditional Betting (Optional)
 
-## 🎮 Full Workflow Example
+If you prefer to pay gas yourself:
+1. Toggle off "Gasless Betting"
+2. Approve the transaction in your wallet
+3. Pay the gas fee and confirm
 
-```bash
-# Terminal 1: Start oracle feed
-npx hardhat run scripts/oracleDataFeed.js --network bsctest --continuous
+---
 
-# Terminal 2: Create a market
-npx hardhat run scripts/createMarket_BNBPrice.js --network bsctest
-# Output: Market created at 0xABC123...
+## Step 4: Earn Cashback
 
-# Terminal 3: Place a bet
-npx hardhat run scripts/placeBet.js --network bsctest 0xABC123... yes 0.1
+Cashback is automatically calculated and added to your account:
 
-# Check market status anytime
-npx hardhat run scripts/previewMarketV2.js --network bsctest 0xABC123...
+- Cashback rates: 0.5% - 2.0% based on your betting volume
+- Earned on every bet, win or lose
+- Automatically added to your claimable balance
+- No action required
 
-# After deadline: Auto-resolve
-npx hardhat run scripts/resolveFromTellor.js --network bsctest 0xABC123...
+---
 
-# Claim winnings
-npx hardhat run scripts/claimFromOracleMarket.js --network bsctest 0xABC123...
-```
+## Step 5: Share Your Referral Link
 
-## 🐦 Enable Twitter Monitoring (Optional)
+Build passive income by inviting friends:
 
-For CZ tweet markets, you need Twitter API access:
+1. Click "Referrals" in the navigation
+2. Copy your unique referral link
+3. Share on Twitter, Discord, Telegram, etc.
+4. Earn 5-10% of all bets placed by your referrals
+5. Earnings are added to your claimable balance automatically
 
-1. **Get Twitter API Access**
-   - Go to https://developer.twitter.com
-   - Apply for elevated access
-   - Create an app and get Bearer Token
+---
 
-2. **Add to Environment**
-   ```bash
-   export TWITTER_BEARER_TOKEN="your_token_here"
-   ```
+## Step 6: Wait for Market Resolution
 
-3. **Start Tweet Monitor**
-   ```bash
-   npx hardhat run scripts/monitorCZTweets.js --network bsctest --continuous
-   ```
+After the deadline:
 
-## ⚙️ Configuration
+1. Markets automatically resolve using Hivebets Oracle
+2. Oracle pulls data from multiple verified sources
+3. Outcome is recorded on-chain
+4. Winners can claim their rewards
 
-### Add More Four.meme Tokens
+Resolution typically happens within 1 hour of deadline.
 
-Edit `config/tokens.json`:
-```json
-{
-  "fourmemeTokens": [
-    {
-      "name": "YOUR_TOKEN",
-      "address": "0xYOUR_ADDRESS",
-      "targetMcap": "100000000",
-      "enabled": true
-    }
-  ]
-}
-```
+---
 
-Then update `scripts/oracleDataFeed.js` and `scripts/createMarket_MultiFourmeme.js` to read from this config.
+## Step 7: Claim Your Winnings
 
-### Customize Update Frequency
+If you predicted correctly:
 
-In `scripts/oracleDataFeed.js`:
-```javascript
-updateInterval: 60000, // 60 seconds (1 minute)
-```
+1. Go to "My Bets" page
+2. See your winning bets with claimable amounts
+3. Click "Claim" on each winning bet
+4. Approve the transaction
+5. Receive your winnings + cashback instantly
 
-## 📚 Available Scripts
+### What You'll Receive
 
-### Oracle Management
-- `oracleDataFeed.js` - Real-time price/mcap updates
-- `monitorCZTweets.js` - Twitter monitoring (requires API)
+- **Original Bet** - Your initial bet amount returned
+- **Share of Losing Pool** - Your proportional share of the losing side's bets
+- **Cashback** - Your earned cashback rewards
+- **Referral Earnings** - Any referral commissions earned
 
-### Market Creation
-- `createMarket_4Token.js` - Single $4 token market
-- `createMarket_MultiFourmeme.js` - Multiple token markets
-- `createMarket_BNBPrice.js` - BNB price market
-- `createMarket_CZTweet.js` - Tweet-based market
+---
 
-### Market Management
-- `previewMarketV2.js` - Check market status
-- `placeBet.js` - Place a bet
-- `resolveFromTellor.js` - Auto-resolve with oracle
-- `resolveMarketV2.js` - Manual resolution
-- `claimFromOracleMarket.js` - Claim winnings
+## Understanding Odds
 
-### Utilities
-- `checkBalance.js` - Check wallet balance
-- `checkPools.js` - Check betting pools
-- `debugState.js` - Debug market state
+HiveBets uses parimutuel betting:
 
-## 🎯 Market Examples
+- Odds are determined by the ratio of YES to NO bets
+- More bets on YES = lower YES odds, higher NO odds
+- Odds update in real-time as bets are placed
+- No house edge - winners split the losing pool
 
-### 1. Four.meme Token Market
-```
-Question: "Will $4 hit $444M market cap before Oct 30?"
-Data: Market cap from DexScreener
-Resolution: Automatic via oracle
-```
+### Example
 
-### 2. BNB Price Market
-```
-Question: "Will BNB hit $1000 before 90 days?"
-Data: BNB/USD price from CoinGecko
-Resolution: Automatic via oracle
-```
+Market: "Will BNB hit $1,200?"
+- YES pool: 10 BNB
+- NO pool: 5 BNB
+- You bet 1 BNB on YES
 
-### 3. CZ Tweet Market
-```
-Question: "Will CZ tweet about BNB within 24 hours?"
-Data: Twitter API monitoring
-Resolution: Manual/semi-automatic
-```
+If YES wins:
+- Total YES pool: 11 BNB (including your bet)
+- You get: (1 / 11) × 15 BNB = 1.36 BNB
+- Your profit: 0.36 BNB (36% return)
+- Plus cashback: ~0.01 BNB
+- Total return: ~1.37 BNB
 
-## 🔧 Troubleshooting
+---
 
-**Oracle not updating?**
-```bash
-# Restart the feed
-npx hardhat run scripts/oracleDataFeed.js --network bsctest --continuous
-```
+## Cashback Tiers
 
-**Can't resolve market?**
-```bash
-# Check if data is available
-npx hardhat run scripts/previewMarketV2.js --network bsctest <market>
+Earn more as you bet more:
 
-# Verify deadline passed and buffer period elapsed (1 hour)
-```
+| Total Betting Volume | Cashback Rate |
+|---------------------|---------------|
+| 0 - 1 BNB | 0.5% |
+| 1 - 5 BNB | 1.0% |
+| 5 - 10 BNB | 1.5% |
+| 10+ BNB | 2.0% |
 
-**Twitter not working?**
-```bash
-# Run in simulation mode first (no Twitter API needed)
-npx hardhat run scripts/monitorCZTweets.js --network bsctest
-```
+---
 
-## 📖 Full Documentation
+## Referral Tiers
 
-- **Complete Guide**: `docs/ORACLE_INTEGRATION.md`
-- **Oracle README**: `README_ORACLE.md`
-- **Contract Docs**: `contracts/`
+Earn more as you refer more:
 
-## 🆘 Need Help?
+| Total Referrals | Commission Rate |
+|----------------|-----------------|
+| 1-10 | 5% |
+| 11-50 | 6% |
+| 51-100 | 7.5% |
+| 100+ | 10% |
 
-1. Check the troubleshooting section above
-2. Review `docs/ORACLE_INTEGRATION.md`
-3. Check existing scripts for examples
-4. Review console logs for specific errors
+---
 
-## 🎉 You're Ready!
+## Tips for Success
 
-Start with a simple Four.meme or BNB market, then experiment with more complex setups. The oracle handles everything automatically once configured.
+### Do Your Research
+- Check token charts on DexScreener
+- Monitor social sentiment on Twitter
+- Review historical price data
+- Understand market conditions
 
-**Happy building! 🚀**
+### Manage Your Risk
+- Never bet more than you can afford to lose
+- Diversify across multiple markets
+- Consider both sides of each market
+- Use cashback to reduce effective losses
 
+### Maximize Earnings
+- Bet early for better odds
+- Use referral links to earn passive income
+- Increase betting volume for higher cashback tiers
+- Claim winnings promptly
+
+### Use x402 Gasless Betting
+- Save on gas fees
+- Faster betting experience
+- Better for mobile users
+- Perfect for small bets
+
+---
+
+## Common Questions
+
+### Is HiveBets safe?
+Yes. All funds are held in audited smart contracts. Your wallet controls your funds at all times. Hivebets Oracle ensures fair resolution.
+
+### What if I lose?
+You lose your bet amount, but you still earn cashback. If you referred friends, you also earn referral commissions.
+
+### Can I bet on both sides?
+Yes, but it's generally not profitable due to the 2% fee. Better to choose one side based on your research.
+
+### When can I claim?
+Immediately after the market resolves. Resolution happens automatically via Hivebets Oracle within 1 hour of deadline.
+
+### How does gasless betting work?
+x402 protocol allows you to sign messages instead of transactions. Our facilitator sponsors the gas and submits your bet on-chain.
+
+### What if the oracle fails?
+Hivebets Oracle aggregates data from multiple sources. If resolution fails, the market can be cancelled and all bets refunded.
+
+---
+
+## Need Help?
+
+- **Twitter:** [@Hivebetsbnb](https://x.com/Hivebetsbnb)
+- **Documentation:** [docs/README.md](docs/README.md)
+- **GitHub:** [github.com/lexie23c/Hivebets](https://github.com/lexie23c/Hivebets)
+
+---
+
+## Ready to Predict?
+
+Connect your wallet and place your first bet. The hive awaits.
+
+**Built for the trenches. Powered by the hive.**

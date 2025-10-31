@@ -328,7 +328,7 @@ Ready to make your predictions count?
 
 - **Website:** hivebets.io
 - **Twitter:** [@Hivebetsbnb](https://x.com/Hivebetsbnb)
-- **GitHub:** [lexie23c/Hivebets](https://github.com/lexie23c/Hivebets)
+- **GitHub:** [robertechs/Hivebets](https://github.com/lexie23c/Hivebets)
 
 **Built for the trenches. Powered by the hive.**
 

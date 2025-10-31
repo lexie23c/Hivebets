@@ -112,9 +112,9 @@ Scenario 3: Both sides
 
 ### Resolution Methods
 
-#### Primary: Tellor Oracle
+#### Primary: Hivebets Oracle
 
-* Automatic resolution via Tellor Oracle
+* Automatic resolution via Hivebets Oracle
 * Fetches real-world market cap data
 * Compares to target market cap
 * Returns YES or NO
@@ -409,7 +409,7 @@ Always check market details before betting.
 4. ✅ Winners split losing pool proportionally
 5. ✅ 2% fee on winnings only
 6. ✅ Must manually claim payouts
-7. ✅ Markets resolve via Tellor Oracle
+7. ✅ Markets resolve via Hivebets Oracle
 8. ✅ Refunds if cancelled before deadline
 9. ✅ Age 18+, comply with local laws
 10. ✅ Only bet what you can afford to lose

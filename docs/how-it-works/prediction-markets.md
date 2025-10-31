@@ -93,7 +93,7 @@ Market outcome:
 
 ## How Outcomes Are Determined
 
-HiveBets uses **Tellor Oracle** for trustless resolution:
+HiveBets uses **Hivebets Oracle** for trustless resolution:
 
 ### Oracle Resolution Process
 
@@ -104,10 +104,10 @@ HiveBets uses **Tellor Oracle** for trustless resolution:
    * Ensures oracle data is available
    * Prevents frontrunning
 3. **Anyone Triggers Resolution**
-   * Calls `resolveFromTellor()` function
+   * Calls `resolveFromHivebets Oracle()` function
    * No special permissions needed
 4. **Oracle Checks Data**
-   * Fetches market cap from Tellor
+   * Fetches market cap from Hivebets Oracle
    * Compares to target
    * Returns YES or NO
 5. **Market Settles**
@@ -182,7 +182,7 @@ Scenario 2: NO Wins
 │  Functions:                         │
 │  - bet(yes/no)                      │
 │  - claim()                          │
-│  - resolveFromTellor()              │
+│  - resolveFromHivebets Oracle()              │
 └──────────────┬──────────────────────┘
                │
                │ Reads from

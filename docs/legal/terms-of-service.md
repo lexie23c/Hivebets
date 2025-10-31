@@ -43,7 +43,7 @@ Don't:
 
 **Bet Limits**: 0.001 - 0.1 BNB per wallet
 
-**Resolution**: Via Tellor Oracle (or manual backup)
+**Resolution**: Via Hivebets Oracle (or manual backup)
 
 **Cancellation**: Possible before deadline (100% refunds if cancelled)
 

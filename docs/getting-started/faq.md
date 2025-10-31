@@ -6,7 +6,7 @@
 HiveBets is a decentralized prediction market platform where users can bet on whether tokens will reach specific market cap targets before a deadline.
 
 ### Is HiveBets decentralized?
-Yes! All bets are handled by smart contracts on BSC Mainnet. Markets resolve automatically using Tellor Oracle. We never hold your funds.
+Yes! All bets are handled by smart contracts on BSC Mainnet. Markets resolve automatically using Hivebets Oracle. We never hold your funds.
 
 ### Which blockchain does HiveBets use?
 We're built on **BSC (Binance Smart Chain)** Mainnet for fast transactions and low fees.
@@ -52,7 +52,7 @@ Markets are created through our smart contract factory. Each market specifies:
 - A deadline
 
 ### How are markets resolved?
-Markets automatically resolve using **Tellor Oracle**, which fetches real-world market cap data. If oracle data isn't available, the resolver can manually resolve based on verifiable data.
+Markets automatically resolve using **Hivebets Oracle**, which fetches real-world market cap data from multiple verified sources. If oracle data isn't available, the resolver can manually resolve based on verifiable data.
 
 ### When can I claim winnings?
 Immediately after the market resolves! Click "Claim Winnings" and confirm the transaction.
@@ -108,15 +108,10 @@ No. We can only interact with the specific functions you approve (placing bets, 
 ## Technical Questions
 
 ### What are the contract addresses?
-- **哈基米 Market**: `0x72dE4848Ea51844215d2016867671D26f60b828A`
-- **$4 Market**: `0x93EAdFb94070e1EAc522A42188Ee3983df335088`
-- **Factory**: `0xe8D17FDcddc3293bDD4568198d25E9657Fd23Fe9`
-- **Tellor Oracle**: `0xD9157453E2668B2fc45b7A803D3FEF3642430cC0`
-
-[View all contracts →](../for-developers/contract-addresses.md)
+All contract addresses are verified on BSCScan. You can view them directly on our platform or check BSCScan for the latest deployments.
 
 ### Are the contracts audited?
-Yes! Our contracts are based on industry-standard patterns (OpenZeppelin, Tellor) and have been internally audited. View the code on [BSCScan](https://bscscan.com).
+Yes! Our contracts are based on industry-standard patterns (OpenZeppelin) and have been internally audited. View the code on [BSCScan](https://bscscan.com).
 
 ### Is the code open source?
 Yes! All contract code is verified on BSCScan and available for review.
@@ -163,7 +158,7 @@ Yes! Check our [Integration Guide](../for-developers/integration.md) for develop
 
 ### What are the main risks?
 - **Smart contract risk**: Bugs in code (mitigated by audits)
-- **Oracle risk**: Oracle provides wrong data (Tellor has dispute mechanisms)
+- **Oracle risk**: Oracle provides wrong data (mitigated by multi-source verification)
 - **Market risk**: You can lose your bet
 - **Network risk**: BSC network issues
 
@@ -187,7 +182,7 @@ The 2% fee covers:
 ## Getting Help
 
 ### I have a question not covered here
-- 🐦 Ask on [Twitter](https://twitter.com/wearetellor)
+- 🐦 Ask on [Twitter](https://x.com/Hivebetsbnb)
 - 📖 Read the full [documentation](#)
 - 📧 Contact support
 
@@ -208,5 +203,5 @@ We'd love to hear it! Share your ideas on Twitter or contact us.
 
 ---
 
-**Still have questions?** Reach out on [Twitter](https://twitter.com/wearetellor)!
+**Still have questions?** Reach out on [Twitter](https://x.com/Hivebetsbnb)!
 

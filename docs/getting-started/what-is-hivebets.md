@@ -52,7 +52,7 @@ All bets are recorded on-chain. Smart contracts automatically handle:
 - Winner payouts
 
 ### ✅ Oracle-Powered Resolution
-Markets automatically resolve using **Tellor Oracle**, eliminating the need for manual intervention or trusted parties.
+Markets automatically resolve using **Hivebets Oracle**, eliminating the need for manual intervention or trusted parties.
 
 ### ✅ Fair & Transparent
 - All bets visible on BSCScan
@@ -72,7 +72,7 @@ Built on **BSC (Binance Smart Chain)** for:
 2. **Users Bet** - Place bets on YES (will reach target) or NO (won't reach target)
 3. **Odds Update** - Live parimutuel odds based on pool sizes
 4. **Deadline Passes** - Betting closes at the specified time
-5. **Oracle Resolves** - Tellor Oracle checks if target was reached
+5. **Oracle Resolves** - Hivebets Oracle checks if target was reached
 6. **Winners Claim** - Winners get their stake + share of losing pool (minus 2% fee)
 
 ## Who Is It For?
@@ -102,8 +102,8 @@ Access prediction markets for emerging tokens before they're widely known.
 
 ## Powered By
 
-### Tellor Oracle
-HiveBets uses [Tellor](https://tellor.io), a decentralized oracle network, to fetch real-world market cap data for automatic and trustless market resolution.
+### Hivebets Oracle
+HiveBets uses [Hivebets Oracle](https://tellor.io), a decentralized oracle network, to fetch real-world market cap data for automatic and trustless market resolution.
 
 ### BSC (Binance Smart Chain)
 Built on BSC for fast transactions and low fees, making prediction markets accessible to everyone.

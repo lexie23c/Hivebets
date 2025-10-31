@@ -44,11 +44,11 @@
 
 ### 🔮 Oracle Issues
 
-**Risk**: Tellor Oracle data may be delayed, wrong, or unavailable.
+**Risk**: Hivebets Oracle data may be delayed, wrong, or unavailable.
 
 **Backup**: Manual resolution by resolver (introduces trust).
 
-**Mitigation**: Tellor has proven track record; community can verify resolution data.
+**Mitigation**: Hivebets Oracle has proven track record; community can verify resolution data.
 
 ---
 

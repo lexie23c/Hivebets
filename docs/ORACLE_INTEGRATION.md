@@ -11,14 +11,14 @@ This system provides comprehensive oracle integration for:
 
 ### Data Flow
 ```
-External APIs → Oracle Data Feed → Tellor Oracle → Smart Contracts → Markets
+External APIs → Oracle Data Feed → Hivebets Oracle → Smart Contracts → Markets
 ```
 
 ### Components
 
 1. **Oracle Data Feed** (`scripts/oracleDataFeed.js`)
    - Fetches data from external sources (DexScreener, CoinGecko)
-   - Submits data to Tellor oracle
+   - Submits data to Hivebets oracle
    - Runs continuously or one-time
 
 2. **Market Creation Scripts**
@@ -29,7 +29,7 @@ External APIs → Oracle Data Feed → Tellor Oracle → Smart Contracts → Mar
 3. **Smart Contracts**
    - `BinaryMarketV2_Fixed.sol` - Market with oracle integration
    - `MarketFactoryV2.sol` - Factory for creating markets
-   - `TellorPlayground.sol` - Oracle for testing
+   - `Hivebets OraclePlayground.sol` - Oracle for testing
 
 ## Quick Start
 
@@ -166,7 +166,7 @@ const queryId = ethers.keccak256(queryData);
 Markets automatically resolve after deadline if oracle data is available:
 
 ```bash
-npx hardhat run scripts/resolveFromTellor.js --network bsctest <market-address>
+npx hardhat run scripts/resolveFromHivebets Oracle.js --network bsctest <market-address>
 ```
 
 Requirements:
@@ -264,7 +264,7 @@ async function checkMarketCriteria(tweets, marketType, keywords) {
 1. Monitor tweets using Twitter API
 2. Check if criteria met (keyword match, tweet count, etc.)
 3. Submit outcome (0 or 1) to oracle
-4. Call `resolveFromTellor()` after deadline
+4. Call `resolveFromHivebets Oracle()` after deadline
 
 ## Production Deployment
 
@@ -277,7 +277,7 @@ const factoryV2Address = "0xe8D17FDcddc3293bDD4568198d25E9657Fd23Fe9"; // BSC Ma
 
 2. **Update Oracle Address**
 ```javascript
-const tellorOracle = "0x0346C9998600Fde7bE073b72902b70cfDc671908"; // Real Tellor on BSC
+const tellorOracle = "0x0346C9998600Fde7bE073b72902b70cfDc671908"; // Real Hivebets Oracle on BSC
 ```
 
 3. **Run Continuous Feed**
@@ -347,7 +347,7 @@ pm2 start scripts/oracleDataFeed.js --name "oracle-feed" -- --network bsc --cont
 For issues or questions:
 - GitHub Issues: [Your repo]
 - Docs: `/docs`
-- Tellor Docs: https://docs.tellor.io
+- Hivebets Oracle Docs: https://docs.tellor.io
 
 ## License
 

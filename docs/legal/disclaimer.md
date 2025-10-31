@@ -50,7 +50,7 @@ Despite audits, bugs are possible. Use at your own risk.
 
 ### 5. Oracle Disclaimer
 
-Tellor Oracle is a third-party service. We're not responsible for oracle failures or incorrect data.
+Hivebets Oracle is a third-party service. We're not responsible for oracle failures or incorrect data.
 
 ### 6. Legal Compliance is YOUR Job
 

@@ -65,7 +65,7 @@ If you prefer to pay gas yourself:
 
 Cashback is automatically calculated and added to your account:
 
-- Cashback rates: 0.5% - 2.0% based on your betting volume
+- **10% cashback on every bet**
 - Earned on every bet, win or lose
 - Automatically added to your claimable balance
 - No action required
@@ -79,7 +79,7 @@ Build passive income by inviting friends:
 1. Click "Referrals" in the navigation
 2. Copy your unique referral link
 3. Share on Twitter, Discord, Telegram, etc.
-4. Earn 5-10% of all bets placed by your referrals
+4. **Earn 15% of all bets placed by your referrals**
 5. Earnings are added to your claimable balance automatically
 
 ---
@@ -141,29 +141,23 @@ If YES wins:
 
 ---
 
-## Cashback Tiers
+## Cashback Rate
 
-Earn more as you bet more:
+**10% on Every Bet**
 
-| Total Betting Volume | Cashback Rate |
-|---------------------|---------------|
-| 0 - 1 BNB | 0.5% |
-| 1 - 5 BNB | 1.0% |
-| 5 - 10 BNB | 1.5% |
-| 10+ BNB | 2.0% |
+- Flat 10% cashback for everyone
+- No tiers, no minimums
+- Instant credit on every bet
 
 ---
 
-## Referral Tiers
+## Referral Commission
 
-Earn more as you refer more:
+**15% on All Referral Bets**
 
-| Total Referrals | Commission Rate |
-|----------------|-----------------|
-| 1-10 | 5% |
-| 11-50 | 6% |
-| 51-100 | 7.5% |
-| 100+ | 10% |
+- Flat 15% commission for everyone
+- No tiers, no minimums
+- Earn from every bet your referrals make, forever
 
 ---
 

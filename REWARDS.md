@@ -26,16 +26,16 @@ Every time you place a bet on HiveBets, you earn cashback:
 3. **Automatic Credit** - Added to your claimable balance
 4. **Claim Anytime** - Withdraw your cashback whenever you want
 
-### Cashback Rates
+### Cashback Rate
 
-Your cashback rate increases with your total lifetime betting volume:
+**10% Flat Rate on Every Bet**
 
-| Lifetime Betting Volume | Cashback Rate | Example Cashback on 1 BNB Bet |
-|------------------------|---------------|-------------------------------|
-| 0 - 1 BNB | 0.5% | 0.005 BNB |
-| 1 - 5 BNB | 1.0% | 0.010 BNB |
-| 5 - 10 BNB | 1.5% | 0.015 BNB |
-| 10+ BNB | 2.0% | 0.020 BNB |
+| Bet Amount | Cashback Earned |
+|------------|-----------------|
+| 0.1 BNB | 0.01 BNB (10%) |
+| 0.5 BNB | 0.05 BNB (10%) |
+| 1.0 BNB | 0.10 BNB (10%) |
+| 5.0 BNB | 0.50 BNB (10%) |
 
 ### Key Features
 
@@ -49,19 +49,19 @@ Your cashback rate increases with your total lifetime betting volume:
 
 #### Scenario 1: Winning Bet with Cashback
 - Bet: 1 BNB on YES
-- Cashback Rate: 1.0%
+- Cashback Rate: 10%
 - Outcome: YES wins, 1.5x multiplier
 - Winnings: 1.5 BNB
-- Cashback: 0.01 BNB
-- Total Return: 1.51 BNB
+- Cashback: 0.10 BNB
+- Total Return: 1.60 BNB
 
 #### Scenario 2: Losing Bet with Cashback
 - Bet: 1 BNB on NO
-- Cashback Rate: 1.0%
+- Cashback Rate: 10%
 - Outcome: YES wins (you lose)
 - Winnings: 0 BNB
-- Cashback: 0.01 BNB
-- Total Return: 0.01 BNB (1% of your bet back)
+- Cashback: 0.10 BNB
+- Total Return: 0.10 BNB (10% of your bet back)
 
 ---
 
@@ -77,16 +77,16 @@ Invite friends to HiveBets and earn from every bet they place:
 4. **You Earn** - Receive a percentage of their betting volume
 5. **Lifetime Earnings** - Earn forever from every bet they make
 
-### Referral Rates
+### Referral Rate
 
-Your commission rate increases with total referrals:
+**15% Flat Commission on All Referral Bets**
 
-| Total Referrals | Commission Rate | Example Earnings on 10 BNB Volume |
-|----------------|-----------------|-----------------------------------|
-| 1-10 | 5% | 0.5 BNB |
-| 11-50 | 6% | 0.6 BNB |
-| 51-100 | 7.5% | 0.75 BNB |
-| 100+ | 10% | 1.0 BNB |
+| Referral Betting Volume | Your Earnings (15%) |
+|------------------------|---------------------|
+| 10 BNB | 1.5 BNB |
+| 50 BNB | 7.5 BNB |
+| 100 BNB | 15 BNB |
+| 500 BNB | 75 BNB |
 
 ### Key Features
 
@@ -120,21 +120,21 @@ Your commission rate increases with total referrals:
 
 #### Example 1: Small Network
 - Referrals: 5 friends
-- Commission: 5%
+- Commission: 15%
 - Monthly Volume: 20 BNB
-- Monthly Earnings: 1 BNB
+- Monthly Earnings: 3 BNB
 
 #### Example 2: Medium Network
 - Referrals: 25 friends
-- Commission: 6%
+- Commission: 15%
 - Monthly Volume: 100 BNB
-- Monthly Earnings: 6 BNB
+- Monthly Earnings: 15 BNB
 
 #### Example 3: Large Network
 - Referrals: 150 friends
-- Commission: 10%
+- Commission: 15%
 - Monthly Volume: 500 BNB
-- Monthly Earnings: 50 BNB
+- Monthly Earnings: 75 BNB
 
 ---
 
@@ -144,19 +144,19 @@ Maximize your earnings by combining cashback and referrals:
 
 ### Your Activity
 - Bet 10 BNB per month
-- Cashback rate: 1.5%
-- Your cashback: 0.15 BNB/month
+- Cashback rate: 10%
+- Your cashback: 1 BNB/month
 
 ### Your Referrals
 - 20 active referrals
-- Commission: 6%
+- Commission: 15%
 - Their volume: 50 BNB/month
-- Your referral earnings: 3 BNB/month
+- Your referral earnings: 7.5 BNB/month
 
 ### Total Monthly Earnings
-- Cashback: 0.15 BNB
-- Referrals: 3 BNB
-- Total: 3.15 BNB
+- Cashback: 1 BNB
+- Referrals: 7.5 BNB
+- Total: 8.5 BNB
 - Plus any betting winnings
 
 ---

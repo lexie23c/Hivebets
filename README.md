@@ -140,16 +140,14 @@ Earn cashback on every bet you place, win or lose:
 - **Win or Lose** - Get cashback regardless of bet outcome
 - **Stackable** - Combine cashback with winning payouts for maximum returns
 
-### Cashback Tiers
+### Cashback System
 
-| Betting Volume | Cashback Rate |
-|----------------|---------------|
-| 0 - 1 BNB | 0.5% |
-| 1 - 5 BNB | 1.0% |
-| 5 - 10 BNB | 1.5% |
-| 10+ BNB | 2.0% |
+**10% Cashback on Every Bet**
 
-*Cashback rates are calculated based on your total lifetime betting volume.*
+- Earn 10% cashback on every bet you place
+- Win or lose, you always get 10% back
+- Instant credit to your claimable balance
+- No tiers, no minimums - flat 10% for everyone
 
 ---
 
@@ -165,19 +163,13 @@ Build passive income by inviting friends to HiveBets:
 
 ### Referral Rewards
 
-- **5% Commission** - Earn 5% of all bets placed by your referrals
+**15% Commission on All Referral Bets**
+
+- **15% Commission** - Earn 15% of all bets placed by your referrals
 - **Lifetime Earnings** - Earn from every bet your referrals make, forever
 - **Instant Payouts** - Referral earnings are added to your claimable balance immediately
 - **No Limits** - Invite unlimited friends, earn unlimited rewards
-
-### Referral Tiers
-
-| Referrals | Bonus Multiplier |
-|-----------|------------------|
-| 1-10 | 1.0x (5%) |
-| 11-50 | 1.2x (6%) |
-| 51-100 | 1.5x (7.5%) |
-| 100+ | 2.0x (10%) |
+- **Flat Rate** - Everyone earns the same 15%, no complex tiers
 
 *Build a network of predictors and earn passive income from the hive.*
 

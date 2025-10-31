@@ -79,7 +79,7 @@ Edit `scripts/oracleDataFeed.js` and `scripts/createMarket_MultiFourmeme.js`:
 const FOURMEME_TOKENS = [
   {
     name: "$4",
-    address: "0x0A43fC31a73013089DF59194872Ecae4cAe14444",
+    address: "0x...", // Token contract address
     targetMcap: "444000000", // $444M
     description: "Will $4 hit $444M mcap?"
   },
@@ -272,12 +272,12 @@ async function checkMarketCriteria(tweets, marketType, keywords) {
 
 1. **Update Factory Address**
 ```javascript
-const factoryV2Address = "0xe8D17FDcddc3293bDD4568198d25E9657Fd23Fe9"; // BSC Mainnet
+const factoryV2Address = "0x..."; // Your deployed factory address
 ```
 
 2. **Update Oracle Address**
 ```javascript
-const hivebetsOracle = "0x0346C9998600Fde7bE073b72902b70cfDc671908"; // Real Hivebets Oracle on BSC
+const hivebetsOracle = "0x..."; // Your Hivebets Oracle address
 ```
 
 3. **Run Continuous Feed**

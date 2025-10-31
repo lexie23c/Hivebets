@@ -184,7 +184,7 @@ Let's walk through a real resolution:
 ### Market Setup
 
 ```
-Token: 哈基米 (0x82Ec31D69b3c289E541b50E30681FD1ACAd24444)
+Token: 哈基米
 Question: Will 哈基米 reach $100M mcap before Oct 30?
 Target: $100,000,000
 Deadline: Oct 30, 2025 23:59:59 UTC

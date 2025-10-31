@@ -103,7 +103,7 @@ Access prediction markets for emerging tokens before they're widely known.
 ## Powered By
 
 ### Hivebets Oracle
-HiveBets uses [Hivebets Oracle](https://tellor.io), a decentralized oracle network, to fetch real-world market cap data for automatic and trustless market resolution.
+HiveBets uses [Hivebets Oracle](https://hivebets.io), a decentralized oracle network, to fetch real-world market cap data for automatic and trustless market resolution.
 
 ### BSC (Binance Smart Chain)
 Built on BSC for fast transactions and low fees, making prediction markets accessible to everyone.

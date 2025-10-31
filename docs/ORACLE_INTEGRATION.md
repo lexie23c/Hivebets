@@ -277,7 +277,7 @@ const factoryV2Address = "0xe8D17FDcddc3293bDD4568198d25E9657Fd23Fe9"; // BSC Ma
 
 2. **Update Oracle Address**
 ```javascript
-const tellorOracle = "0x0346C9998600Fde7bE073b72902b70cfDc671908"; // Real Hivebets Oracle on BSC
+const hivebetsOracle = "0x0346C9998600Fde7bE073b72902b70cfDc671908"; // Real Hivebets Oracle on BSC
 ```
 
 3. **Run Continuous Feed**
@@ -347,7 +347,7 @@ pm2 start scripts/oracleDataFeed.js --name "oracle-feed" -- --network bsc --cont
 For issues or questions:
 - GitHub Issues: [Your repo]
 - Docs: `/docs`
-- Hivebets Oracle Docs: https://docs.tellor.io
+- Hivebets Oracle Docs: https://hivebets.io/docs
 
 ## License
 

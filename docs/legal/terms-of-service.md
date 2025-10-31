@@ -79,7 +79,7 @@ You can stop using anytime. We can shut down anytime. Existing markets will stil
 
 ## 12. Contact
 
-Questions? Twitter: [@wearetellor](https://twitter.com/wearetellor)
+Questions? Twitter: [@Hivebetsbnb](https://x.com/Hivebetsbnb)
 
 ---
 

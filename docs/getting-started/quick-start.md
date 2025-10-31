@@ -195,7 +195,7 @@ Read [Market Rules](../markets/rules.md)
 ## Need Help?
 
 * 📖 [Read the FAQ](faq.md)
-* 🐦 [Ask on Twitter](https://twitter.com/wearetellor)
+* 🐦 [Ask on Twitter](https://x.com/Hivebetsbnb)
 * 📧 Contact support
 
 **Happy betting!** 🚀

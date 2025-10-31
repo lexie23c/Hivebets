@@ -151,7 +151,7 @@ If you don't fully understand and accept these risks, don't bet.
 
 ## Contact
 
-Questions: [@wearetellor](https://twitter.com/wearetellor)
+Questions: [@Hivebetsbnb](https://x.com/Hivebetsbnb)
 
 ***
 

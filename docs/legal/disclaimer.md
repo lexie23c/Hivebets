@@ -4,7 +4,7 @@
 
 ***
 
-## What HiveBets Is
+## What Hivebets Is
 
 A decentralized prediction market for Four.meme tokens on BSC. That's it.
 
@@ -115,7 +115,7 @@ Without notice or liability.
 
 ## Your Acknowledgment
 
-**By using HiveBets, you confirm:**
+**By using Hivebets, you confirm:**
 
 You've read this disclaimer\
 You understand all risks\
@@ -157,7 +157,7 @@ Questions: [@Hivebetsbnb](https://x.com/Hivebetsbnb)
 
 **Last Updated**: October 15, 2025
 
-**Your use of HiveBets = acceptance of this disclaimer**
+**Your use of Hivebets = acceptance of this disclaimer**
 
 ***
 

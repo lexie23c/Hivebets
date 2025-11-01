@@ -14,7 +14,7 @@ A prediction market is a market where people bet on the outcome of future events
 
 ### Advantages of Specialization
 
-| Generic Markets        | HiveBets (Four.meme Focus)     |
+| Generic Markets        | Hivebets (Four.meme Focus)     |
 | ---------------------- | ------------------------------ |
 | Predict everything     | Predict one thing really well  |
 | No domain expertise    | Deep understanding of trenches |
@@ -26,11 +26,11 @@ A prediction market is a market where people bet on the outcome of future events
 
 ***
 
-## How HiveBets Markets Work
+## How Hivebets Markets Work
 
 ### Market Structure
 
-Each HiveBets market has:
+Each Hivebets market has:
 
 1. **A Token** - The memecoin being predicted (e.g., 哈基米)
 2. **A Target** - Market cap goal (e.g., $100M)
@@ -93,7 +93,7 @@ Market outcome:
 
 ## How Outcomes Are Determined
 
-HiveBets uses **Hivebets Oracle** for trustless resolution:
+Hivebets uses **Hivebets Oracle** for trustless resolution:
 
 ### Oracle Resolution Process
 
@@ -121,7 +121,7 @@ HiveBets uses **Hivebets Oracle** for trustless resolution:
 
 ## Parimutuel System
 
-HiveBets uses **parimutuel betting**, where:
+Hivebets uses **parimutuel betting**, where:
 
 * All bets go into a pool
 * Winners split the losing pool
@@ -169,7 +169,7 @@ Scenario 2: NO Wins
                │ Connects to
                ▼
 ┌─────────────────────────────────────┐
-│      HiveBets               │
+│      Hivebets               │
 │      (Frontend Interface)           │
 └──────────────┬──────────────────────┘
                │
@@ -223,7 +223,7 @@ Max bet limits prevent whale manipulation. Parimutuel system ensures fair odds.
 
 ## Advantages Over Traditional Prediction Markets
 
-| Feature          | HiveBets                    | Traditional                |
+| Feature          | Hivebets                    | Traditional                |
 | ---------------- | --------------------------- | -------------------------- |
 | **Trust**        | Trustless (smart contracts) | Requires trust in platform |
 | **Transparency** | 100% on-chain               | Opaque backend             |

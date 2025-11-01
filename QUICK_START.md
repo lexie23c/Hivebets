@@ -1,6 +1,6 @@
-# HiveBets Quick Start Guide
+# Hivebets Quick Start Guide
 
-Get started with HiveBets prediction markets in under 2 minutes.
+Get started with Hivebets prediction markets in under 2 minutes.
 
 ---
 
@@ -14,7 +14,7 @@ Get started with HiveBets prediction markets in under 2 minutes.
 
 ## Step 1: Connect Your Wallet
 
-1. Visit the HiveBets platform
+1. Visit the Hivebets platform
 2. Click "Connect Wallet" in the top right
 3. Select your wallet provider:
    - **MetaMask** - Most popular browser extension wallet
@@ -118,7 +118,7 @@ If you predicted correctly:
 
 ## Understanding Odds
 
-HiveBets uses parimutuel betting:
+Hivebets uses parimutuel betting:
 
 - Odds are determined by the ratio of YES to NO bets
 - More bets on YES = lower YES odds, higher NO odds
@@ -191,7 +191,7 @@ If YES wins:
 
 ## Common Questions
 
-### Is HiveBets safe?
+### Is Hivebets safe?
 Yes. All funds are held in audited smart contracts. Your wallet controls your funds at all times. Hivebets Oracle ensures fair resolution.
 
 ### What if I lose?

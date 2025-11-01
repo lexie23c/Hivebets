@@ -1,12 +1,12 @@
-# What is HiveBets?
+# What is Hivebets?
 
-HiveBets is the **first gasless prediction market platform** on BNB Chain, exclusively focused on **Four.meme tokens** and crypto events. Powered by revolutionary x402 protocol, we enable users to speculate on the future market capitalization of the hottest memecoin launches in the trenches - **without paying any gas fees**.
+Hivebets is the **first gasless prediction market platform** on BNB Chain, exclusively focused on **Four.meme tokens** and crypto events. Powered by revolutionary x402 protocol, we enable users to speculate on the future market capitalization of the hottest memecoin launches in the trenches - **without paying any gas fees**.
 
 ## The Four.meme Advantage
 
 ### Why We're Four.meme Exclusive
 
-**Unlike generic prediction markets** (Polymarket, Augur, etc.) that try to predict everything from elections to sports, HiveBets is **laser-focused** on one thing: **Four.meme token success**.
+**Unlike generic prediction markets** (Polymarket, Augur, etc.) that try to predict everything from elections to sports, Hivebets is **laser-focused** on one thing: **Four.meme token success**.
 
 This specialization gives us unique advantages:
 
@@ -43,7 +43,7 @@ Generic prediction markets are:
 
 ## The Solution
 
-HiveBets leverages **blockchain technology** and **decentralized oracles** to create:
+Hivebets leverages **blockchain technology** and **decentralized oracles** to create:
 
 ### Trustless Markets
 All bets are recorded on-chain. Smart contracts automatically handle:
@@ -67,7 +67,7 @@ Built on **BSC (Binance Smart Chain)** for:
 - Only 2% platform fee on winnings
 - No hidden charges
 
-## How HiveBets Works
+## How Hivebets Works
 
 1. **Markets Are Created** - Each market has a token, target market cap, and deadline
 2. **Users Bet** - Place bets on YES (will reach target) or NO (won't reach target)
@@ -104,7 +104,7 @@ Access prediction markets for emerging tokens before they're widely known.
 ## Powered By
 
 ### Hivebets Oracle
-HiveBets uses [Hivebets Oracle](https://hivebets.io), a decentralized oracle network, to fetch real-world market cap data for automatic and trustless market resolution.
+Hivebets uses [Hivebets Oracle](https://hivebets.io), a decentralized oracle network, to fetch real-world market cap data for automatic and trustless market resolution.
 
 ### BSC (Binance Smart Chain)
 Built on BSC for fast transactions and low fees, making prediction markets accessible to everyone.

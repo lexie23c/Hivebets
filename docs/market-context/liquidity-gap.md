@@ -37,11 +37,11 @@ Traditional memecoin trading requires:
 * **Active management** (time and attention)
 * **Emotional stress** (24/7 price watching)
 
-## How HiveBets Bridges the Gap
+## How Hivebets Bridges the Gap
 
 ### Structured Liquidity
 
-HiveBets creates **synthetic liquidity** through prediction markets:
+Hivebets creates **synthetic liquidity** through prediction markets:
 
 \> **Defined risk** - Max 0.5 BNB per market\
 \> **Fixed duration** - Clear start and end dates\
@@ -59,7 +59,7 @@ Instead of buying $1,000 worth of a memecoin, you can:
 
 ### Accessible Speculation
 
-HiveBets makes memecoin speculation **accessible to everyone**:
+Hivebets makes memecoin speculation **accessible to everyone**:
 
 * **Low capital requirements** (0.01 BNB minimum)
 * **No wallet security concerns** (non-custodial smart contracts)
@@ -68,6 +68,6 @@ HiveBets makes memecoin speculation **accessible to everyone**:
 
 ## The Result
 
-**HiveBets turns illiquid, high-friction memecoin speculation into a transparent, risk-defined prediction market.**
+**Hivebets turns illiquid, high-friction memecoin speculation into a transparent, risk-defined prediction market.**
 
 You're no longer gambling on price action—you're making informed predictions on specific outcomes.

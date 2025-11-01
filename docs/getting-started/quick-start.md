@@ -1,6 +1,6 @@
 # Quick Start
 
-Get started with HiveBets in 5 minutes! This guide will walk you through placing your first bet.
+Get started with Hivebets in 5 minutes! This guide will walk you through placing your first bet.
 
 ## Prerequisites
 
@@ -132,7 +132,7 @@ After the market resolves:
    * BNB sent to your wallet
    * Minus .5% platform fee
 
-**Congratulations!** You've successfully used HiveBets!
+**Congratulations!** You've successfully used Hivebets!
 
 ***
 
@@ -142,7 +142,7 @@ Let's say you want to bet on 哈基米:
 
 ```
 Step 1: You have 1 BNB in your wallet
-Step 2: Connect wallet to HiveBets
+Step 2: Connect wallet to Hivebets
 Step 3: Choose a market
 Step 4: Enter 0.05 BNB bet amount
 Step 5: See payout: "0.05 BNB → 0.12 BNB"

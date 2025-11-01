@@ -2,7 +2,7 @@
 
 ## Fee Structure
 
-HiveBets has a simple, transparent fee structure:
+Hivebets has a simple, transparent fee structure:
 
 | Fee Type           | Amount       | When Charged     | Who Pays      |
 | ------------------ | ------------ | ---------------- | ------------- |
@@ -39,7 +39,7 @@ You receive: 1 BNB (stake) + 0.5 - 0.01 = 1.49 BNB
 
 | Platform                      | Fee              |
 | ----------------------------- | ---------------- |
-| **HiveBets**                  | .5% on winnings  |
+| **Hivebets**                  | .5% on winnings  |
 | Traditional sportsbook        | 4-10% house edge |
 | Centralized prediction market | 2-5% on all bets |
 | DEX trading fees              | 0.3-1% per trade |
@@ -50,7 +50,7 @@ You receive: 1 BNB (stake) + 0.5 - 0.01 = 1.49 BNB
 
 ### What Is x402?
 
-**x402 gasless betting** means you never pay gas fees. HiveBets uses x402 protocol to sponsor all transaction costs for you.
+**x402 gasless betting** means you never pay gas fees. Hivebets uses x402 protocol to sponsor all transaction costs for you.
 
 ### How It Works
 
@@ -71,7 +71,7 @@ Traditional blockchain betting requires gas for every transaction:
 
 | Platform                | Gas Cost per Bet | User Experience |
 | ----------------------- | ---------------- | --------------- |
-| **HiveBets (x402)**     | **$0**           | Just sign       |
+| **Hivebets (x402)**     | **$0**           | Just sign       |
 | Traditional BSC betting | $0.10-0.20       | Pay gas         |
 | Ethereum betting        | $10-50           | Expensive       |
 
@@ -206,18 +206,18 @@ All fee collection is **on-chain and visible**:
 
 ## Fee Comparison
 
-### HiveBets vs Competitors
+### Hivebets vs Competitors
 
 | Platform     | Type              | Fee                 | Notes                    |
 | ------------ | ----------------- | ------------------- | ------------------------ |
-| **HiveBets** | Prediction market | .5% on winnings     | Transparent, on-chain    |
+| **Hivebets** | Prediction market | .5% on winnings     | Transparent, on-chain    |
 | Polymarket   | Prediction market | 2% on orders        | Centralized, crypto bets |
 | PredictIt    | Prediction market | 5% + 10% withdrawal | Fiat, US-regulated       |
 | Augur        | Prediction market | \~1-2% + gas        | High Ethereum gas        |
 | DraftKings   | Sports betting    | 15-20% edge         | Not transparent          |
 | FanDuel      | Sports betting    | 15-20% edge         | Not transparent          |
 
-### HiveBets Advantages
+### Hivebets Advantages
 
 Lower fees than traditional betting\
 Lower fees than regulated prediction markets\
@@ -231,7 +231,7 @@ BSC low gas costs
 
 ### How x402 Eliminates Gas Fees
 
-HiveBets uses x402 protocol to sponsor all gas costs:
+Hivebets uses x402 protocol to sponsor all gas costs:
 
 1. **EIP-712 Signatures**
    * Users sign typed data messages (no gas)

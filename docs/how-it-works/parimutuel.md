@@ -17,7 +17,7 @@ The term comes from French: "pari mutuel" = "mutual betting". It's commonly used
 
 ***
 
-## How It Works on HiveBets
+## How It Works on Hivebets
 
 ### Basic Flow
 
@@ -186,7 +186,7 @@ Your profit: 0.49 BNB (+49% ROI)
 
 ### Percentage Odds
 
-HiveBets shows odds as **percentages**:
+Hivebets shows odds as **percentages**:
 
 ```
 YES: 70%
@@ -337,7 +337,7 @@ Notice how odds flip as bets accumulate!
 
 ## Comparison to Fixed Odds
 
-| Feature          | Parimutuel (HiveBets) | Fixed Odds (Traditional) |
+| Feature          | Parimutuel (Hivebets) | Fixed Odds (Traditional) |
 | ---------------- | --------------------- | ------------------------ |
 | **Odds Set By**  | Bettors               | Bookmaker                |
 | **Odds Change**  | Yes, continuously     | No (locked at bet time)  |
@@ -391,7 +391,7 @@ Your bet moved NO from 25% → 40%!
 
 **Small bets** barely move odds.
 
-With 0.1 BNB max, slippage is usually minimal on HiveBets.
+With 0.1 BNB max, slippage is usually minimal on Hivebets.
 
 ***
 

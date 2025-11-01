@@ -1,6 +1,6 @@
 # Getting Started
 
-Step-by-step guide to placing bets on HiveBets.
+Step-by-step guide to placing bets on Hivebets.
 
 ***
 
@@ -16,7 +16,7 @@ Make sure you have:
 
 ## Step 1: Connect Your Wallet
 
-### Navigate to HiveBets
+### Navigate to Hivebets
 
 1. Go to ()
 2. Click **"Connect Wallet"** button (top right)
@@ -486,4 +486,4 @@ Action:
 
 ***
 
-**Ready to place your first bet?** [Go to HiveBets →](how-to-bet.md)
+**Ready to place your first bet?** [Go to Hivebets →](how-to-bet.md)

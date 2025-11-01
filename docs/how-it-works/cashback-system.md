@@ -1,10 +1,10 @@
 # Cashback System
 
-Earn 10% cashback on every bet you place on HiveBets - win or lose.
+Earn 10% cashback on every bet you place on Hivebets - win or lose.
 
 ## Overview
 
-HiveBets rewards EVERY bet you place with instant cashback, whether you win or lose. This makes betting more rewarding and reduces your overall risk.
+Hivebets rewards EVERY bet you place with instant cashback, whether you win or lose. This makes betting more rewarding and reduces your overall risk.
 
 ## How It Works
 
@@ -85,7 +85,7 @@ View your total cashback earned in the **"My Bets"** section:
 
 ## Why 10%?
 
-Most platforms offer 0-2% cashback or require complex loyalty programs. HiveBets offers **10% flat cashback** on every bet because:
+Most platforms offer 0-2% cashback or require complex loyalty programs. Hivebets offers **10% flat cashback** on every bet because:
 
 1. **Simplicity**: No tiers, no conditions, just bet and earn
 2. **Fair**: Everyone gets the same rate

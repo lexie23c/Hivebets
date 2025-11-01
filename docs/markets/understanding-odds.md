@@ -1,8 +1,8 @@
 # Understanding Odds
 
-## How Odds Work on HiveBets
+## How Odds Work on Hivebets
 
-HiveBets uses a **parimutuel system** where odds are determined by the total pool of bets, not by a house or bookmaker.
+Hivebets uses a **parimutuel system** where odds are determined by the total pool of bets, not by a house or bookmaker.
 
 ### Real-Time Calculations
 
@@ -48,7 +48,7 @@ Odds **constantly change** as more bets are placed:
 
 ### Viewing Odds
 
-On HiveBets, you can see:
+On Hivebets, you can see:
 
 - **Current odds** for YES and NO
 - **Pool sizes** for both sides

@@ -1,6 +1,6 @@
 # Market Guidelines
 
-Complete rules for participating in HiveBets prediction markets.
+Complete rules for participating in Hivebets prediction markets.
 
 ***
 
@@ -263,7 +263,7 @@ Do not attempt to:
 
 ### Market Integrity
 
-HiveBets markets are designed to be fair:
+Hivebets markets are designed to be fair:
 
 **Max bet limits** prevent whale dominance\
 **Parimutuel system** ensures fair odds\
@@ -293,7 +293,7 @@ Markets naturally balance themselves:
 
 * **\~$0.18** to place bet
 * **\~$0.14** to claim winnings
-* Paid to BSC network (not HiveBets)
+* Paid to BSC network (not Hivebets)
 * Varies with network congestion
 
 [Learn more about fees →](../how-it-works/fees.md)
@@ -337,7 +337,7 @@ All data is **on-chain** and verifiable:
 **Comply with local laws**\
 **Only bet what you can afford to lose**
 
-**HiveBets does not**:
+**Hivebets does not**:
 
 * Provide financial advice
 * Guarantee profits
@@ -363,7 +363,7 @@ All data is **on-chain** and verifiable:
 
 ### Rule Updates
 
-HiveBets may update these rules:
+Hivebets may update these rules:
 
 * Changes apply to **new markets** only
 * Existing markets follow rules at time of creation
@@ -424,4 +424,4 @@ Always check market details before betting.
 
 ***
 
-**Ready to bet?** [Visit HiveBets →](rules.md)
+**Ready to bet?** [Visit Hivebets →](rules.md)

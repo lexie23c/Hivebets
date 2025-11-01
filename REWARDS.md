@@ -1,4 +1,4 @@
-# HiveBets Rewards System
+# Hivebets Rewards System
 
 Earn rewards on every bet and build passive income through referrals.
 
@@ -6,7 +6,7 @@ Earn rewards on every bet and build passive income through referrals.
 
 ## Overview
 
-HiveBets offers two reward systems:
+Hivebets offers two reward systems:
 
 1. **Cashback** - Earn on every bet you place
 2. **Referrals** - Earn from friends you invite
@@ -19,7 +19,7 @@ Both systems are automatic, instant, and stack with your betting winnings.
 
 ### How It Works
 
-Every time you place a bet on HiveBets, you earn cashback:
+Every time you place a bet on Hivebets, you earn cashback:
 
 1. **Place a Bet** - Use gasless x402 betting or traditional betting
 2. **Instant Calculation** - Cashback is calculated immediately
@@ -69,11 +69,11 @@ Every time you place a bet on HiveBets, you earn cashback:
 
 ### How It Works
 
-Invite friends to HiveBets and earn from every bet they place:
+Invite friends to Hivebets and earn from every bet they place:
 
 1. **Get Your Link** - Connect wallet to generate unique referral link
 2. **Share Everywhere** - Twitter, Discord, Telegram, anywhere
-3. **Friends Bet** - Your referrals place bets on HiveBets
+3. **Friends Bet** - Your referrals place bets on Hivebets
 4. **You Earn** - Receive a percentage of their betting volume
 5. **Lifetime Earnings** - Earn forever from every bet they make
 
@@ -218,7 +218,7 @@ Monitor your referral network:
 
 ### Referral Tips
 
-1. **Share Authentically** - Explain why you use HiveBets
+1. **Share Authentically** - Explain why you use Hivebets
 2. **Provide Value** - Share market analysis with your link
 3. **Be Active** - Engage with your referrals
 4. **Build Community** - Create a prediction group
@@ -275,7 +275,7 @@ Yes. All rewards (cashback and referrals) are paid in BNB.
 - Commission is calculated on referral's bet amount
 - Referral relationships are permanent
 - Self-referrals and referral abuse are prohibited
-- HiveBets reserves the right to modify rates with notice
+- Hivebets reserves the right to modify rates with notice
 
 ---
 
@@ -300,4 +300,4 @@ Ready to earn rewards?
 
 ---
 
-*HiveBets - Where predictions meet rewards.*
+*Hivebets - Where predictions meet rewards.*

@@ -1,6 +1,6 @@
 # x402 Gasless Betting
 
-HiveBets is the first prediction market platform to integrate x402 gasless betting technology, allowing you to place bets without paying any gas fees.
+Hivebets is the first prediction market platform to integrate x402 gasless betting technology, allowing you to place bets without paying any gas fees.
 
 ---
 
@@ -20,7 +20,7 @@ Traditional blockchain betting requires:
 
 ---
 
-## How x402 Works on HiveBets
+## How x402 Works on Hivebets
 
 ### Traditional Betting Flow
 ```
@@ -69,7 +69,7 @@ x402 uses EIP-712, the industry standard for structured data signing used by pro
 
 **What You Sign:**
 ```
-Domain: HiveBets
+Domain: Hivebets
 Chain: BSC (56)
 Contract: Market Address
 Message:
@@ -93,7 +93,7 @@ Message:
 - Protects against front-running
 
 **Domain Verification**
-- Signatures are cryptographically bound to HiveBets
+- Signatures are cryptographically bound to Hivebets
 - Cannot be used on other platforms
 - Chain ID verification ensures BSC only
 
@@ -157,7 +157,7 @@ Message:
 
 ### What is the Facilitator?
 
-The x402 facilitator is a service operated by HiveBets that:
+The x402 facilitator is a service operated by Hivebets that:
 - Receives signed messages from users
 - Verifies signatures are valid
 - Sponsors gas for transactions
@@ -187,7 +187,7 @@ The x402 facilitator is a service operated by HiveBets that:
 
 ---
 
-## Using x402 on HiveBets
+## Using x402 on Hivebets
 
 ### Enabling Gasless Betting
 
@@ -272,7 +272,7 @@ Yes! x402 is especially good for mobile wallets as signing is simpler than trans
 
 ## The Future of Gasless Betting
 
-HiveBets is pioneering gasless prediction markets. x402 represents the future of blockchain UX:
+Hivebets is pioneering gasless prediction markets. x402 represents the future of blockchain UX:
 
 **No More Gas Anxiety**
 - Users shouldn't worry about gas fees
@@ -298,7 +298,7 @@ HiveBets is pioneering gasless prediction markets. x402 represents the future of
 Want to integrate x402 into your dApp?
 
 - **EIP-712 Specification:** [eips.ethereum.org/EIPS/eip-712](https://eips.ethereum.org/EIPS/eip-712)
-- **HiveBets Contracts:** [github.com/robertechs/Hivebets](https://github.com/robertechs/Hivebets)
+- **Hivebets Contracts:** [github.com/robertechs/Hivebets](https://github.com/robertechs/Hivebets)
 - **x402 Documentation:** [X402_QUICK_START.md](../../X402_QUICK_START.md)
 
 ### Smart Contract Integration
@@ -324,7 +324,7 @@ function betWithSignature(
 
 Ready to experience gasless betting?
 
-1. Connect your wallet to HiveBets
+1. Connect your wallet to Hivebets
 2. Browse active markets
 3. Toggle "Gasless Betting" ON
 4. Sign and bet - pay zero gas fees
@@ -333,4 +333,4 @@ Ready to experience gasless betting?
 
 ---
 
-*HiveBets x402 - The first gasless prediction market platform.*
+*Hivebets x402 - The first gasless prediction market platform.*

@@ -1,4 +1,4 @@
-# HiveBets
+# Hivebets
 
 **The First Gasless Prediction Market on BNB Chain**
 
@@ -12,13 +12,13 @@
 
 ---
 
-## What is HiveBets?
+## What is Hivebets?
 
-HiveBets is the **first gasless prediction market platform** built on BNB Chain. Powered by revolutionary x402 protocol, we let you bet on real-world outcomes from crypto token prices to social events with **zero gas fees**, complete transparency, and trustless execution.
+Hivebets is the **first gasless prediction market platform** built on BNB Chain. Powered by revolutionary x402 protocol, we let you bet on real-world outcomes from crypto token prices to social events with **zero gas fees**, complete transparency, and trustless execution.
 
-Traditional betting platforms are centralized, opaque, and take your funds off-chain. Even decentralized alternatives force you to pay expensive gas fees on every transaction. HiveBets changes this. Every bet is recorded on the blockchain **without you paying a single satoshi in gas**. Every outcome is resolved by our proprietary Hivebets Oracle system pulling data from multiple verified sources. Your funds stay in your wallet until you place a bet, and winners are paid automatically through smart contracts.
+Traditional betting platforms are centralized, opaque, and take your funds off-chain. Even decentralized alternatives force you to pay expensive gas fees on every transaction. Hivebets changes this. Every bet is recorded on the blockchain **without you paying a single satoshi in gas**. Every outcome is resolved by our proprietary Hivebets Oracle system pulling data from multiple verified sources. Your funds stay in your wallet until you place a bet, and winners are paid automatically through smart contracts.
 
-Whether you're predicting the next Four.meme token to moon, BNB hitting a price target, or even CZ's tweet activity, HiveBets provides a fair, transparent, and community-driven platform where the hive always wins together - **all without gas fees**.
+Whether you're predicting the next Four.meme token to moon, BNB hitting a price target, or even CZ's tweet activity, Hivebets provides a fair, transparent, and community-driven platform where the hive always wins together - **all without gas fees**.
 
 ---
 
@@ -40,7 +40,7 @@ Whether you're predicting the next Four.meme token to moon, BNB hitting a price 
 
 ## How to Get Started
 
-Getting started with HiveBets takes less than 2 minutes:
+Getting started with Hivebets takes less than 2 minutes:
 
 1. **Connect Your Wallet** - Use MetaMask, Rabby, or any WalletConnect-compatible wallet on BNB Chain.
 2. **Browse Markets** - Check out active prediction markets across tokens, prices, and events.
@@ -57,7 +57,7 @@ Getting started with HiveBets takes less than 2 minutes:
 
 ## Example Use Cases
 
-HiveBets supports a wide range of prediction markets:
+Hivebets supports a wide range of prediction markets:
 
 ### Token Market Caps
 **"Will token X reach $300M market cap by November 3?"**  
@@ -77,11 +77,11 @@ Community-created markets for any verifiable outcome.
 
 ---
 
-## Why Choose HiveBets?
+## Why Choose Hivebets?
 
 ### vs. Centralized Betting Platforms
 
-| Feature | HiveBets | Traditional Platforms |
+| Feature | Hivebets | Traditional Platforms |
 |---------|----------|----------------------|
 | **Custody** | Non-custodial (you control funds) | Custodial (platform holds your money) |
 | **Gas Fees** | None (x402 gasless betting) | Transaction fees apply |
@@ -94,7 +94,7 @@ Community-created markets for any verifiable outcome.
 
 ### Why We're Different
 
-- **No Central Authority** - HiveBets is governed by code, not humans. Once a market is created, no one can manipulate the outcome.
+- **No Central Authority** - Hivebets is governed by code, not humans. Once a market is created, no one can manipulate the outcome.
 - **Hivebets Oracle** - Our proprietary oracle system aggregates data from multiple verified sources for maximum reliability and accuracy.
 - **x402 Gasless Technology** - Revolutionary gasless betting powered by x402 protocol. Users only sign transactions while our facilitator sponsors the gas.
 - **Community-First** - Built for the crypto community, by the crypto community. No corporate interests.
@@ -105,7 +105,7 @@ Community-created markets for any verifiable outcome.
 
 ## x402 Gasless Betting
 
-HiveBets integrates x402 protocol to provide a seamless, gasless betting experience:
+Hivebets integrates x402 protocol to provide a seamless, gasless betting experience:
 
 ### How It Works
 
@@ -154,7 +154,7 @@ Earn cashback on every bet you place, win or lose:
 
 ## Referral System
 
-Build passive income by inviting friends to HiveBets:
+Build passive income by inviting friends to Hivebets:
 
 ### How Referrals Work
 
@@ -194,7 +194,7 @@ Build passive income by inviting friends to HiveBets:
 
 ### Smart Contracts
 
-HiveBets consists of core contracts:
+Hivebets consists of core contracts:
 
 - **BinaryMarketV2_Sora.sol** - Individual prediction market with oracle and x402 integration
 - **MarketFactoryV2.sol** - Factory for creating new markets
@@ -333,4 +333,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-*HiveBets - Where collective wisdom meets blockchain immutability.*
+*Hivebets - Where collective wisdom meets blockchain immutability.*

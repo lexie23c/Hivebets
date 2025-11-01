@@ -4,7 +4,7 @@ Earn 15% commission on every bet placed by your referrals - forever.
 
 ## Overview
 
-HiveBets rewards you for growing the platform. Share your unique referral link, and earn 15% of all bets placed by anyone who signs up through your link.
+Hivebets rewards you for growing the platform. Share your unique referral link, and earn 15% of all bets placed by anyone who signs up through your link.
 
 ## How It Works
 
@@ -33,7 +33,7 @@ HiveBets rewards you for growing the platform. Share your unique referral link, 
 - Commissions paid instantly
 
 ### How to Get Your Link
-1. Connect your wallet to HiveBets
+1. Connect your wallet to Hivebets
 2. Click "Referrals" in navigation
 3. Copy your unique referral link
 4. Share everywhere
@@ -119,7 +119,7 @@ Once someone uses your link and connects their wallet, they're your referral for
 
 ## Why 15%?
 
-Most platforms offer 0-5% referral commissions. HiveBets offers **15% flat commission** because:
+Most platforms offer 0-5% referral commissions. Hivebets offers **15% flat commission** because:
 
 1. **Generous**: Industry-leading referral rate
 2. **Simple**: No tiers, no conditions
@@ -147,4 +147,4 @@ Promote x402 to your referrals for maximum earnings!
 
 ---
 
-*HiveBets Referral System - The most generous in prediction markets.*
+*Hivebets Referral System - The most generous in prediction markets.*

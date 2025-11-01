@@ -468,4 +468,4 @@ Feeling lucky? Browse new markets and bet again!
 
 **Congratulations on your win!** 🎉
 
-[Return to HiveBets →](claiming.md)
+[Return to Hivebets →](claiming.md)

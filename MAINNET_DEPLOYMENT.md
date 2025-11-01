@@ -1,4 +1,4 @@
-# HiveBets Mainnet Deployment
+# Hivebets Mainnet Deployment
 
 **Deployment Date:** October 25, 2025  
 **Network:** BSC Mainnet (Chain ID: 56)  

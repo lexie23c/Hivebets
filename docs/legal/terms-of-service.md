@@ -4,11 +4,11 @@
 
 ## 1. Acceptance
 
-By using HiveBets, you agree to these Terms. Don't agree? Don't use the platform.
+By using Hivebets, you agree to these Terms. Don't agree? Don't use the platform.
 
 ## 2. What We Are
 
-HiveBets is a **decentralized prediction market** for Four.meme tokens on BSC.
+Hivebets is a **decentralized prediction market** for Four.meme tokens on BSC.
 
 We provide: Smart contract interfaces, market data, oracle resolution.
 
@@ -83,7 +83,7 @@ Questions? Twitter: [@Hivebetsbnb](https://x.com/Hivebetsbnb)
 
 ---
 
-**By using HiveBets, you accept these Terms and all associated risks.**
+**By using Hivebets, you accept these Terms and all associated risks.**
 
 [← Back to Documentation](../README.md)
 

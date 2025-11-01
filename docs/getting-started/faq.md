@@ -2,13 +2,13 @@
 
 ## General Questions
 
-### What is HiveBets?
-HiveBets is a decentralized prediction market platform where users can bet on whether tokens will reach specific market cap targets before a deadline.
+### What is Hivebets?
+Hivebets is a decentralized prediction market platform where users can bet on whether tokens will reach specific market cap targets before a deadline.
 
-### Is HiveBets decentralized?
+### Is Hivebets decentralized?
 Yes! All bets are handled by smart contracts on BSC Mainnet. Markets resolve automatically using Hivebets Oracle. We never hold your funds.
 
-### Which blockchain does HiveBets use?
+### Which blockchain does Hivebets use?
 We're built on **BSC (Binance Smart Chain)** Mainnet for fast transactions and low fees.
 
 ### Do I need to create an account?
@@ -100,7 +100,7 @@ Your funds are controlled by audited smart contracts on BSC Mainnet. We never cu
 ### What if I lose my private key?
 Your funds are tied to your wallet. If you lose your private key, we cannot recover your funds. Always back up your seed phrase!
 
-### Can HiveBets access my wallet?
+### Can Hivebets access my wallet?
 No. We can only interact with the specific functions you approve (placing bets, claiming winnings). We cannot withdraw funds without your explicit transaction approval.
 
 ---
@@ -116,7 +116,7 @@ Yes! Our contracts are based on industry-standard patterns (OpenZeppelin) and ha
 ### Is the code open source?
 Yes! All contract code is verified on BSCScan and available for review.
 
-### Can I integrate HiveBets into my app?
+### Can I integrate Hivebets into my app?
 Yes! Check our [Integration Guide](../for-developers/integration.md) for developers.
 
 ---
@@ -196,7 +196,7 @@ We'd love to hear it! Share your ideas on Twitter or contact us.
 
 ## More Resources
 
-[What is HiveBets?](what-is-hivebets.md)  
+[What is Hivebets?](what-is-hivebets.md)  
 [Quick Start Guide](quick-start.md)  
 ⚙️ [How It Works](../how-it-works/prediction-markets.md)  
 [Market Rules](../markets/rules.md)  

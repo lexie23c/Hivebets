@@ -7,15 +7,15 @@ coverY: 0
 
 ### **Overview**
 
-HiveBets is a **trustless prediction market platform** built on the **BNB Chain**, where users can speculate on a variety of crypto market events — from token launches to price targets and social trends.
+Hivebets is a **trustless prediction market platform** built on the **BNB Chain**, where users can speculate on a variety of crypto market events — from token launches to price targets and social trends.
 
-Whether it’s a new memecoin on Four.meme, BNB’s next breakout, or a viral moment on X — HiveBets turns speculation into on-chain prediction markets.
+Whether it’s a new memecoin on Four.meme, BNB’s next breakout, or a viral moment on X — Hivebets turns speculation into on-chain prediction markets.
 
 ***
 
-### **Why HiveBets?**
+### **Why Hivebets?**
 
-Unlike generic prediction platforms, HiveBets is built **for the crypto ecosystem itself** — designed for traders, degens, and analysts who live on-chain.
+Unlike generic prediction platforms, Hivebets is built **for the crypto ecosystem itself** — designed for traders, degens, and analysts who live on-chain.
 
 ***
 

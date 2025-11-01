@@ -5,13 +5,13 @@ coverY: 0
 
 # Introduction
 
-**HiveBets** is the **first gasless prediction market platform** on BNB Chain where you can bet on real-world outcomes **without paying any gas fees**.
+**Hivebets** is the **first gasless prediction market platform** on BNB Chain where you can bet on real-world outcomes **without paying any gas fees**.
 
-## What is HiveBets?
+## What is Hivebets?
 
-Powered by revolutionary x402 protocol, HiveBets lets you bet on token prices, market caps, social events, and more - with **zero gas fees**, instant cashback, and transparent on-chain settlement.
+Powered by revolutionary x402 protocol, Hivebets lets you bet on token prices, market caps, social events, and more - with **zero gas fees**, instant cashback, and transparent on-chain settlement.
 
-### Why HiveBets is Different
+### Why Hivebets is Different
 
 * **x402 Gasless Betting** - First prediction market with zero gas fees on BNB Chain
 * **Just Sign, Don't Pay** - No gas required for betting or claiming

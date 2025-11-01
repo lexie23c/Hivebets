@@ -31,7 +31,7 @@ While DeFi has matured with sophisticated instruments like options, perps, and s
 
 ## The Gap
 
-**HiveBets solves this by creating structured prediction markets** that allow traders to:
+**Hivebets solves this by creating structured prediction markets** that allow traders to:
 
 Express conviction on specific price targets\
 Define risk upfront (max 0.5 BNB per market)\

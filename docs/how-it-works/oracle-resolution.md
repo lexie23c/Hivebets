@@ -6,7 +6,7 @@ In blockchain, an **oracle** is a system that brings real-world data onto the bl
 
 ### Why Oracles Matter
 
-For HiveBets to resolve markets automatically, we need to know:
+For Hivebets to resolve markets automatically, we need to know:
 
 * **What is the current market cap of token X?**
 * **Did token X reach the target by the deadline?**
@@ -17,7 +17,7 @@ This data exists off-chain (on exchanges, DEXs, aggregators). An oracle fetches 
 
 ## Hivebets Oracle
 
-HiveBets uses its own advanced  decentralized oracle network on BSC Mainnet.
+Hivebets uses its own advanced  decentralized oracle network on BSC Mainnet.
 
 ### Key Features:
 
@@ -89,7 +89,7 @@ function resolveFromHivebets() external {
 * Bot
 * Random person
 
-**No gas cost for HiveBets** - caller pays gas.
+**No gas cost for Hivebets** - caller pays gas.
 
 #### 4. Query HIvebets
 
@@ -280,7 +280,7 @@ Alice clicks, confirms transaction, receives her payout!
                │ Query
                ▼
 ┌─────────────────────────────────────┐
-│    HiveBets Market Contract     │
+│    Hivebets Market Contract     │
 │                                     │
 │  - Calls getDataBefore()            │
 │  - Receives market cap              │
@@ -334,7 +334,7 @@ If Hivebets data is incorrect:
 * Anyone can dispute within 12 hours
 * Disputer stakes TRB
 * If successful, bad reporter is slashed
-* HiveBets can wait for dispute period
+* Hivebets can wait for dispute period
 
 ### 2. Time-Weighted Average
 
@@ -376,7 +376,7 @@ Reporters stake TRB tokens. Bad data = loss of stake.
 
 ## Comparison to Alternatives
 
-| Oracle Type         | Pros                          | Cons                            | HiveBets Choice    |
+| Oracle Type         | Pros                          | Cons                            | Hivebets Choice    |
 | ------------------- | ----------------------------- | ------------------------------- | ------------------ |
 | **Hivebets**        | Decentralized, proven, on BSC | Requires reporters              | **Primary**        |
 | **Chainlink**       | Most established              | Not specialized for custom data |  Not used          |

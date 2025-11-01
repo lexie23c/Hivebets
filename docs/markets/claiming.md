@@ -128,7 +128,7 @@ Step 2: Calculate your winnings from NO pool
 Winnings = 0.3 × 10% = 0.03 BNB
 
 Step 3: Calculate platform fee
-Fee = 2% × 0.03 = 0.0006 BNB
+Fee = 0.5% × 0.03 = 0.0006 BNB
 
 Step 4: Calculate total payout
 Payout = 0.05 (stake) + 0.03 (winnings) - 0.0006 (fee)
@@ -347,7 +347,7 @@ Total NO pool: 0.8 BNB
 Calculation:
 Your share = 0.08 / 1.2 = 6.67%
 Winnings = 0.8 × 6.67% = 0.0533 BNB
-Fee = 2% × 0.0533 = 0.00107 BNB
+Fee = 0.5% × 0.0533 = 0.00107 BNB
 Payout = 0.08 + 0.0533 - 0.00107 = 0.13223 BNB
 
 Process:
@@ -373,7 +373,7 @@ Total NO pool: 0.5 BNB
 Calculation (NO side only):
 Your share = 0.04 / 0.5 = 8%
 Winnings = 1.5 × 8% = 0.12 BNB
-Fee = 2% × 0.12 = 0.0024 BNB
+Fee = 0.5% × 0.12 = 0.0024 BNB
 Payout = 0.04 + 0.12 - 0.0024 = 0.1576 BNB
 
 Net result:

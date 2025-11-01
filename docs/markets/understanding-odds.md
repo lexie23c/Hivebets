@@ -28,7 +28,7 @@ Market: "Will $4 hit $444M mcap?"
 
 If you bet **0.1 BNB on YES** and it wins:
 - Your payout: 0.3 BNB (0.1 × 3.0x)
-- Your profit: 0.2 BNB (minus 2% fee)
+- Your profit: 0.2 BNB (minus 0.5% fee)
 
 ### Dynamic Nature
 

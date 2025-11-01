@@ -39,7 +39,7 @@ Don't:
 
 ## 6. Platform Rules
 
-**Fees**: 2% on winnings only (gas fees separate)
+**Fees**: 0.5% on winnings only (gas fees separate)
 
 **Bet Limits**: 0.001 - 0.5 BNB per wallet
 

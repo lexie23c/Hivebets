@@ -198,7 +198,7 @@ Yes. All funds are held in audited smart contracts. Your wallet controls your fu
 You lose your bet amount, but you still earn cashback. If you referred friends, you also earn referral commissions.
 
 ### Can I bet on both sides?
-Yes, but it's generally not profitable due to the 2% fee. Better to choose one side based on your research.
+Yes, but it's generally not profitable due to the 0.5% fee. Better to choose one side based on your research.
 
 ### When can I claim?
 Immediately after the market resolves. Resolution happens automatically via Hivebets Oracle within 1 hour of deadline.

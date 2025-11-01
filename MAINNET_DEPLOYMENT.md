@@ -66,7 +66,7 @@
 ## Platform Features
 
 - **Max Bet:** 10 BNB per wallet per side
-- **Trading Fee:** 2% on winnings
+- **Trading Fee:** 0.5% on winnings
 - **Cashback:** 0.2% on all bets
 - **Referral Rewards:** 0.1% of referred bets
 - **Auto-generated Referral Links:** Every wallet gets `https://hivebets.xyz/ref/{address}`

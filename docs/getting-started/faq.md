@@ -25,12 +25,12 @@ No! Just connect your Web3 wallet (MetaMask, Rabby, or WalletConnect). No email,
 You can bet on both YES and NO if you want, up to 0.5 BNB each.
 
 ### What are the fees?
-- **Platform Fee**: 2% on winnings only
+- **Platform Fee**: 0.5% on winnings only
 - **Gas Fees**: ~$0.10 per transaction (BSC network fees)
 - **No deposit/withdrawal fees**
 
 ### How do I win?
-If you bet on the correct outcome (YES or NO), you win! Winners split the losing pool proportionally to their stakes, minus the 2% platform fee.
+If you bet on the correct outcome (YES or NO), you win! Winners split the losing pool proportionally to their stakes, minus the 0.5% platform fee.
 
 ### Can I change my bet?
 No. Once a bet is placed, it's final. You can place additional bets (up to the max limit) but can't cancel existing ones.
@@ -75,7 +75,7 @@ Odds are based on the **parimutuel system**:
 [Learn more about parimutuel betting →](../how-it-works/parimutuel.md)
 
 ### What's my potential payout?
-Your payout = your stake + (losing pool × your stake / winning pool) - 2% fee
+Your payout = your stake + (losing pool × your stake / winning pool) - 0.5% fee
 
 The interface shows your estimated payout before you bet.
 
@@ -171,7 +171,7 @@ Yes! Check our [Integration Guide](../for-developers/integration.md) for develop
 - Don't bet more than you can afford to lose
 
 ### What's the platform fee used for?
-The 2% fee covers:
+The 0.5% fee covers:
 - Platform development
 - Infrastructure costs
 - Security audits

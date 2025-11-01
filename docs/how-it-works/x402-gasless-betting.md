@@ -167,7 +167,7 @@ The x402 facilitator is a service operated by Hivebets that:
 ### Facilitator Economics
 
 **How We Cover Gas Costs:**
-- Platform fees (2% on winnings) cover facilitator costs
+- Platform fees (0.5% on winnings) cover facilitator costs
 - Sustainable at scale with high betting volume
 - No cost passed to users
 - Better user experience drives more volume

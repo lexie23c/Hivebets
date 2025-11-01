@@ -228,7 +228,7 @@ Max bet limits prevent whale manipulation. Parimutuel system ensures fair odds.
 | **Trust**        | Trustless (smart contracts) | Requires trust in platform |
 | **Transparency** | 100% on-chain               | Opaque backend             |
 | **Resolution**   | Automated (oracle)          | Manual or subjective       |
-| **Fees**         | 2% on winnings              | 5-10%+ on all bets         |
+| **Fees**         | 0.5% on winnings              | 5-10%+ on all bets         |
 | **Custody**      | Non-custodial               | Platform holds funds       |
 | **Censorship**   | Resistant                   | Can ban users              |
 | **Verification** | Anyone can verify           | Must trust platform        |

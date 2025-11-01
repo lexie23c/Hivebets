@@ -64,7 +64,7 @@ Markets automatically resolve using **Hivebets Oracle**, eliminating the need fo
 ### Low Cost
 Built on **BSC (Binance Smart Chain)** for:
 - ~$0.10 transaction costs
-- Only 2% platform fee on winnings
+- Only 0.5% platform fee on winnings
 - No hidden charges
 
 ## How Hivebets Works
@@ -74,7 +74,7 @@ Built on **BSC (Binance Smart Chain)** for:
 3. **Odds Update** - Live parimutuel odds based on pool sizes
 4. **Deadline Passes** - Betting closes at the specified time
 5. **Oracle Resolves** - Hivebets Oracle checks if target was reached
-6. **Winners Claim** - Winners get their stake + share of losing pool (minus 2% fee)
+6. **Winners Claim** - Winners get their stake + share of losing pool (minus 0.5% fee)
 
 ## Who Is It For?
 
@@ -97,7 +97,7 @@ Access prediction markets for emerging tokens before they're widely known.
 | **Decentralized** | No middleman, trustless execution |
 | **Automated** | Oracle-based resolution, no manual intervention |
 | **Transparent** | All data on-chain, open-source contracts |
-| **Low Fees** | 2% platform fee + minimal gas costs |
+| **Low Fees** | 0.5% platform fee + minimal gas costs |
 | **Fair Odds** | Parimutuel system ensures fair pricing |
 | **Instant Settlement** | Claim winnings immediately after resolution |
 

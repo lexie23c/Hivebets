@@ -86,7 +86,7 @@ Community-created markets for any verifiable outcome.
 | **Custody** | Non-custodial (you control funds) | Custodial (platform holds your money) |
 | **Gas Fees** | None (x402 gasless betting) | Transaction fees apply |
 | **Transparency** | 100% on-chain, verifiable | Opaque backend systems |
-| **Fees** | 2% on winnings + cashback rewards | 5-20% house edge + withdrawal fees |
+| **Fees** | 0.5% on winnings + cashback rewards | 5-20% house edge + withdrawal fees |
 | **Rewards** | Cashback on every bet + referral bonuses | None |
 | **Settlement** | Instant, automatic | Delayed, manual approval |
 | **Trust** | Smart contracts | Platform reputation |

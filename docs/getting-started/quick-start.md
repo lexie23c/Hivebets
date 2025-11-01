@@ -153,7 +153,7 @@ Step 9: October 30 passes
 Step 10: Oracle checks: 哈基米 reached $110M 
 Step 11: Market resolves to YES
 Step 12: Click "Claim Winnings"
-Step 13: Receive 0.12 BNB (minus 2% fee = 0.1176 BNB)
+Step 13: Receive 0.12 BNB (minus 0.5% fee = 0.1176 BNB)
 Step 14: Profit: 0.0676 BNB (~$85 @ $1250/BNB)
 ```
 

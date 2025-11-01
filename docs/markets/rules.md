@@ -159,7 +159,7 @@ Scenario C:
 **Formula**:
 
 ```
-Your Payout = Your Stake + (Losing Pool × Your Share) - 2% Fee
+Your Payout = Your Stake + (Losing Pool × Your Share) - 0.5% Fee
 
 Where:
 Your Share = Your Stake / Total Winning Pool
@@ -175,7 +175,7 @@ Outcome: YES wins
 
 Your share: 0.05 / 0.5 = 10%
 Your winnings from losing pool: 0.3 × 10% = 0.03 BNB
-Platform fee: 2% × 0.03 = 0.0006 BNB
+Platform fee: 0.5% × 0.03 = 0.0006 BNB
 Your payout: 0.05 + 0.03 - 0.0006 = 0.0794 BNB
 
 Profit: 0.0294 BNB (58.8% ROI)
@@ -191,7 +191,7 @@ Your entire stake goes to the winning pool.
 
 **When**: Immediately after market resolves\
 **How**: Click "Claim Winnings" button on market page\
-**Cost**: Gas fee (\~$0.14)
+**Cost**: $0 (x402 gasless)
 
 **You must claim manually**. Payouts are not automatic.
 
@@ -225,7 +225,7 @@ If a market is cancelled:
 
 * Get 100% of your stake back
 * No platform fee
-* Pay gas fee to claim refund (\~$0.14)
+* $0 gas fee (x402 gasless)
 
 ***
 
@@ -283,7 +283,7 @@ Markets naturally balance themselves:
 
 ## Fees
 
-### Platform Fee: 2%
+### Platform Fee: 0.5%
 
 * Charged on **winnings only** (not on stake)
 * Deducted automatically by smart contract
@@ -291,10 +291,10 @@ Markets naturally balance themselves:
 
 ### Gas Fees
 
-* **\~$0.18** to place bet
-* **\~$0.14** to claim winnings
-* Paid to BSC network (not Hivebets)
-* Varies with network congestion
+* **$0** to place bet (x402 gasless)
+* **$0** to claim winnings (x402 gasless)
+* x402 protocol sponsors all gas costs
+* No BNB needed for gas
 
 [Learn more about fees →](../how-it-works/fees.md)
 
@@ -375,7 +375,7 @@ Hivebets may update these rules:
 Individual markets may have additional rules:
 
 * Different max bets (though currently all 0.1 BNB)
-* Different fees (though currently all 2%)
+* Different fees (though currently all 0.5%)
 * Special resolution criteria
 
 Always check market details before betting.
@@ -407,7 +407,7 @@ Always check market details before betting.
 2. Bets are final (no cancellation)
 3. Betting closes at deadline (strict)
 4. Winners split losing pool proportionally
-5. 2% fee on winnings only
+5. 0.5% fee on winnings only
 6. Must manually claim payouts
 7. Markets resolve via Hivebets Oracle
 8. Refunds if cancelled before deadline

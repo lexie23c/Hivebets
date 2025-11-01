@@ -15,7 +15,7 @@
 **Details:**
 - Target: $1,100 USD
 - Max Bet: 0.1 BNB per side
-- Fee: 2%
+- Fee: 0.5%
 - Duration: 10 minutes
 - Category: Price Target
 
@@ -44,7 +44,7 @@
 - Target Token: $4 (Four.meme)
 - Token Address: `0x0A43fC31a73013089DF59194872Ecae4cAe14444`
 - Max Bet: 0.05 BNB per side
-- Fee: 2%
+- Fee: 0.5%
 - Duration: 10 minutes
 - Category: Social Signal
 

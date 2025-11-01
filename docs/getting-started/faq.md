@@ -20,9 +20,9 @@ No! Just connect your Web3 wallet (MetaMask, Rabby, or WalletConnect). No email,
 
 ### How much can I bet?
 - **Minimum**: 0.001 BNB
-- **Maximum**: 0.1 BNB per wallet per side
+- **Maximum**: 0.5 BNB per wallet per side
 
-You can bet on both YES and NO if you want, up to 0.1 BNB each.
+You can bet on both YES and NO if you want, up to 0.5 BNB each.
 
 ### What are the fees?
 - **Platform Fee**: 2% on winnings only
@@ -36,7 +36,7 @@ If you bet on the correct outcome (YES or NO), you win! Winners split the losing
 No. Once a bet is placed, it's final. You can place additional bets (up to the max limit) but can't cancel existing ones.
 
 ### Can I bet on both YES and NO?
-Yes! You can hedge your bets by placing up to 0.1 BNB on each side.
+Yes! You can hedge your bets by placing up to 0.5 BNB on each side.
 
 ### What happens if I'm wrong?
 You lose your bet. The BNB you bet goes to the winning pool.
@@ -132,7 +132,7 @@ Yes! Check our [Integration Guide](../for-developers/integration.md) for develop
 ### "Transaction Failed" Error
 **Possible causes**:
 - Deadline passed (can't bet after deadline)
-- Exceeded max bet (0.1 BNB per wallet)
+- Exceeded max bet (0.5 BNB per wallet)
 - Low gas limit (rare on BSC)
 - Network congestion (try again)
 

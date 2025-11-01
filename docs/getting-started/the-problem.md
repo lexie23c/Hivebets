@@ -34,7 +34,7 @@ While DeFi has matured with sophisticated instruments like options, perps, and s
 **HiveBets solves this by creating structured prediction markets** that allow traders to:
 
 Express conviction on specific price targets\
-Define risk upfront (max 0.1 BNB per market)\
+Define risk upfront (max 0.5 BNB per market)\
 Avoid custody and rug risk\
 Compete in transparent, on-chain markets
 

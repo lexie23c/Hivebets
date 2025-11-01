@@ -43,7 +43,7 @@ Traditional memecoin trading requires:
 
 HiveBets creates **synthetic liquidity** through prediction markets:
 
-\> **Defined risk** - Max 0.1 BNB per market\
+\> **Defined risk** - Max 0.5 BNB per market\
 \> **Fixed duration** - Clear start and end dates\
 \> **No custody** - Never hold the underlying token\
 \> **Automatic settlement** - Oracle-based resolution

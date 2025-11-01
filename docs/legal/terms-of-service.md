@@ -41,7 +41,7 @@ Don't:
 
 **Fees**: 2% on winnings only (gas fees separate)
 
-**Bet Limits**: 0.001 - 0.1 BNB per wallet
+**Bet Limits**: 0.001 - 0.5 BNB per wallet
 
 **Resolution**: Via Hivebets Oracle (or manual backup)
 

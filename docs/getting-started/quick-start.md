@@ -16,7 +16,7 @@ Before you begin, make sure you have:
 
 You'll need BNB (Binance Coin) to:
 
-* Place bets (min: 0.001 BNB, max: 0.1 BNB per wallet)
+* Place bets (min: 0.001 BNB, max: 0.5 BNB per wallet)
 * Pay transaction fees (\~$0.10 per transaction)
 
 ### How to Get BNB:
@@ -70,7 +70,7 @@ Each market shows:
    * Click on a market card
 2. **Enter Bet Amount**
    * Type amount in BNB (e.g., 0.01)
-   * Max: 0.1 BNB per wallet
+   * Max: 0.5 BNB per wallet
    * Min: 0.001 BNB
 3. **Review Payout**
    * See what you'll win if you're correct
@@ -178,7 +178,7 @@ Step 14: Profit: 0.0676 BNB (~$85 @ $1250/BNB)
 
 ### "Exceeds Maximum"
 
-**Solution**: Max bet is 0.1 BNB per wallet
+**Solution**: Max bet is 0.5 BNB per wallet
 
 ***
 

@@ -1,0 +1,78 @@
+═══════════════════════════════════════════════════════════════
+  HOW TO CLAIM YOUR 0.08 BNB FROM CANCELLED MARKETS
+═══════════════════════════════════════════════════════════════
+
+TOTAL TO CLAIM: 0.08 BNB
+- 币安人生 market: 0.05 BNB
+- BNB market: 0.03 BNB
+
+───────────────────────────────────────────────────────────────
+STEP 1: Get Your Private Key
+───────────────────────────────────────────────────────────────
+
+Since you already shared your seed phrase, you need to convert it to a private key.
+
+Option A: Use MetaMask
+  1. Open MetaMask
+  2. Import your seed phrase (if not already there)
+  3. Go to Account Details → Export Private Key
+  4. Copy the private key
+
+Option B: Use an online tool (not recommended)
+  - Go to https://iancoleman.io/bip39/
+  - Enter your seed phrase
+  - Find your wallet address (0x42d81...7aE7)
+  - Copy the corresponding private key
+
+───────────────────────────────────────────────────────────────
+STEP 2: Add Private Key to .env
+───────────────────────────────────────────────────────────────
+
+1. Open: /Users/reef/Desktop/cursorvibes/mini-prediction/.env
+
+2. Replace the current PRIVATE_KEY line with yours:
+   PRIVATE_KEY=your_actual_private_key_here
+
+3. Save the file
+
+───────────────────────────────────────────────────────────────
+STEP 3: Run the Claim Script
+───────────────────────────────────────────────────────────────
+
+Open Terminal and run:
+
+cd /Users/reef/Desktop/cursorvibes/mini-prediction
+npx hardhat run scripts/CLAIM_USER_REFUNDS.js --network bsc
+
+───────────────────────────────────────────────────────────────
+STEP 4: Verify Success
+───────────────────────────────────────────────────────────────
+
+The script will:
+✅ Show your wallet balance before
+✅ Claim from 币安人生 market
+✅ Claim from BNB market  
+✅ Show your wallet balance after
+✅ Display transaction hashes
+
+───────────────────────────────────────────────────────────────
+STEP 5: SECURITY - CRITICAL!
+───────────────────────────────────────────────────────────────
+
+⚠️  IMMEDIATELY AFTER CLAIMING:
+
+1. REMOVE private key from .env file
+2. CREATE a new wallet with new seed phrase
+3. TRANSFER all funds to the new wallet
+4. NEVER use the old wallet again
+
+Your seed phrase was exposed in this chat and is COMPROMISED!
+
+═══════════════════════════════════════════════════════════════
+
+Questions? The script has detailed output and will tell you exactly what's happening at each step.
+
+Expected result: You'll receive ~0.08 BNB (minus small gas fees)
+
+═══════════════════════════════════════════════════════════════
+

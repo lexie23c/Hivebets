@@ -146,7 +146,7 @@ Before betting, verify:
 **Constraints**:
 
 * Minimum: 0.001 BNB
-* Maximum: 0.1 BNB per wallet
+* Maximum: 0.5 BNB per wallet
 * Must have BNB for gas (\~0.0003 BNB extra)
 
 ### Check Estimated Payout

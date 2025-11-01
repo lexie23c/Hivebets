@@ -287,7 +287,7 @@ Odds change as bets are placed:
 
 ### Max Bet Limits
 
-**0.1 BNB per wallet per side** prevents:
+**0.5 BNB per wallet per side** prevents:
 
 * Whale manipulation
 * Market cornering

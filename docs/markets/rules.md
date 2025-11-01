@@ -27,7 +27,7 @@ Complete rules for participating in HiveBets prediction markets.
 ### Bet Limits
 
 **Minimum Bet**: 0.001 BNB\
-**Maximum Bet**: 0.1 BNB per wallet per side
+**Maximum Bet**: 0.5 BNB per wallet per side
 
 **Example**:
 
@@ -403,7 +403,7 @@ Always check market details before betting.
 
 **Key Rules to Remember**:
 
-1. ✅ Max 0.1 BNB per wallet per side
+1. ✅ Max 0.5 BNB per wallet per side
 2. ✅ Bets are final (no cancellation)
 3. ✅ Betting closes at deadline (strict)
 4. ✅ Winners split losing pool proportionally

@@ -7,7 +7,7 @@ HiveBets has a simple, transparent fee structure:
 | Fee Type           | Amount       | When Charged     | Who Pays      |
 | ------------------ | ------------ | ---------------- | ------------- |
 | **Platform Fee**   | .5%          | On winnings only | Winners       |
-| **Gas Fee**        | \~$0.10-0.20 | Per transaction  | User (always) |
+| **Gas Fee**        | $0 (Gasless) | Never            | Nobody (x402) |
 | **Deposit Fee**    | 0%           | Never            | Nobody        |
 | **Withdrawal Fee** | 0%           | Never            | Nobody        |
 
@@ -46,60 +46,58 @@ You receive: 1 BNB (stake) + 0.5 - 0.01 = 1.49 BNB
 
 ***
 
-## Gas Fees
+## x402 Gasless Betting
 
-### What Are Gas Fees?
+### What Is x402?
 
-**Gas fees** are transaction costs on the BSC blockchain. Every blockchain interaction (bet, claim, etc.) requires gas.
+**x402 gasless betting** means you never pay gas fees. HiveBets uses x402 protocol to sponsor all transaction costs for you.
 
-### HiveBets Gas Costs
+### How It Works
 
-Approximate costs on **BSC Mainnet**:
+With x402, you only need to:
 
-| Action             | Gas Used      | Cost (@ 3 Gwei) | Cost (USD @ $600 BNB) |
-| ------------------ | ------------- | --------------- | --------------------- |
-| **Place Bet**      | \~100,000 gas | 0.0003 BNB      | \~$0.18               |
-| **Claim Winnings** | \~80,000 gas  | 0.00024 BNB     | \~$0.14               |
-| **Check Odds**     | 0 gas         | Free            | Free                  |
-| **View Stakes**    | 0 gas         | Free            | Free                  |
+| Action             | What You Do    | Gas Cost |
+| ------------------ | -------------- | -------- |
+| **Place Bet**      | Sign message   | $0       |
+| **Claim Winnings** | Sign message   | $0       |
+| **Check Odds**     | View (no sign) | $0       |
+| **View Stakes**    | View (no sign) | $0       |
+
+**No gas fees. Ever.**
+
+### Why x402?
+
+Traditional blockchain betting requires gas for every transaction:
+
+| Platform                | Gas Cost per Bet | User Experience |
+| ----------------------- | ---------------- | --------------- |
+| **HiveBets (x402)**     | **$0**           | Just sign       |
+| Traditional BSC betting | $0.10-0.20       | Pay gas         |
+| Ethereum betting        | $10-50           | Expensive       |
+
+x402 makes betting:
+
+* **Free** - No gas fees
+* **Simple** - Just sign messages
+* **Fast** - Instant confirmation
+* **Accessible** - No BNB needed for gas
 
 ### Why BSC?
 
-We chose BSC over Ethereum because:
+We chose BSC for x402 implementation because:
 
-| Network      | Gas Cost          | Speed     |
-| ------------ | ----------------- | --------- |
-| **Ethereum** | $10-50 per tx     | 15-60 sec |
-| **BSC**      | $0.10-0.20 per tx | 3-5 sec   |
-| **Polygon**  | $0.01-0.05 per tx | 2-3 sec   |
+| Network      | x402 Support | Speed     | Ecosystem |
+| ------------ | ------------ | --------- | --------- |
+| **BSC**      | Full support | 3-5 sec   | Large     |
+| Ethereum     | Expensive    | 15-60 sec | Largest   |
+| Polygon      | Supported    | 2-3 sec   | Growing   |
 
 BSC offers the best balance of:
 
-* Low fees
+* x402 gasless support
 * Fast confirmation
 * Proven security
 * Large user base
-
-### Gas Price Fluctuations
-
-Gas fees vary based on network congestion:
-
-**Low congestion** (night, off-peak):
-
-* \~3 Gwei
-* $0.10-0.15 per transaction
-
-**High congestion** (day, busy times):
-
-* \~5 Gwei
-* $0.20-0.30 per transaction
-
-**Extreme congestion** (very rare):
-
-* \~10 Gwei
-* $0.40-0.60 per transaction
-
-💡 **Tip**: Transact during off-peak hours to save on gas.
 
 ***
 
@@ -113,44 +111,42 @@ Outcome: YES wins
 Winning share: 0.005 BNB
 
 Costs:
-- Bet transaction gas: 0.0003 BNB ($0.18)
+- Bet transaction gas: $0 (x402 gasless)
 - Platform fee: .5% × 0.005 = 0.0001 BNB ($0.06)
-- Claim transaction gas: 0.00024 BNB ($0.14)
-- Total fees: 0.00064 BNB ($0.38)
+- Claim transaction gas: $0 (x402 gasless)
+- Total fees: 0.0001 BNB ($0.06)
 
 Payout:
 - Stake returned: 0.01 BNB
 - Winnings after fee: 0.0049 BNB
 - Total received: 0.0149 BNB
 
-Net profit: 0.0149 - 0.01 = 0.0049 BNB
-After gas: 0.0049 - 0.00054 = 0.00436 BNB (~$2.62)
+Net profit: 0.0149 - 0.01 = 0.0049 BNB (~$2.94)
 
-ROI: 43.6%
+ROI: 49%
 ```
 
 ### Example 2: Max Bet
 
 ```
-Bet: 0.1 BNB on NO
+Bet: 0.5 BNB on NO
 Outcome: NO wins
-Winning share: 0.15 BNB (NO was minority)
+Winning share: 0.75 BNB (NO was minority)
 
 Costs:
-- Bet transaction gas: 0.0003 BNB ($0.18)
-- Platform fee: .5% × 0.15 = 0.003 BNB ($1.80)
-- Claim transaction gas: 0.00024 BNB ($0.14)
-- Total fees: 0.00354 BNB ($2.12)
+- Bet transaction gas: $0 (x402 gasless)
+- Platform fee: .5% × 0.75 = 0.00375 BNB ($2.25)
+- Claim transaction gas: $0 (x402 gasless)
+- Total fees: 0.00375 BNB ($2.25)
 
 Payout:
-- Stake returned: 0.1 BNB
-- Winnings after fee: 0.147 BNB
-- Total received: 0.247 BNB
+- Stake returned: 0.5 BNB
+- Winnings after fee: 0.74625 BNB
+- Total received: 1.24625 BNB
 
-Net profit: 0.247 - 0.1 = 0.147 BNB
-After gas: 0.147 - 0.00054 = 0.14646 BNB (~$87.88)
+Net profit: 1.24625 - 0.5 = 0.74625 BNB (~$447.75)
 
-ROI: 146.46%
+ROI: 149.25%
 ```
 
 ### Example 3: Losing Bet
@@ -160,17 +156,17 @@ Bet: 0.05 BNB on YES
 Outcome: NO wins
 
 Costs:
-- Bet transaction gas: 0.0003 BNB ($0.18)
+- Bet transaction gas: $0 (x402 gasless)
 - Platform fee: 0 (you didn't win)
 - Claim transaction: 0 (nothing to claim)
-- Total fees: 0.0003 BNB ($0.18)
+- Total fees: $0
 
 Payout: 0 BNB
 
 Loss: -0.05 BNB (-$30)
-Total lost including gas: -0.0503 BNB (-$30.18)
+Total lost: -0.05 BNB (-$30)
 
-ROI: -100.6%
+ROI: -100%
 ```
 
 ***
@@ -231,69 +227,69 @@ BSC low gas costs
 
 ***
 
-## Gas Optimization
+## x402 Technical Details
 
-We've optimized contracts to minimize gas:
+### How x402 Eliminates Gas Fees
 
-### Optimizations Implemented
+HiveBets uses x402 protocol to sponsor all gas costs:
 
-1. **Efficient Data Storage**
-   * Use uint96 instead of uint256 where possible
-   * Pack variables into single storage slots
-   * Saves \~50% gas on state updates
-2. **Minimal External Calls**
-   * Batch operations where possible
-   * Reduce oracle queries
-   * Saves \~30% gas
-3. **Simple Logic**
-   * No complex loops
-   * Direct calculations
-   * Predictable gas costs
+1. **EIP-712 Signatures**
+   * Users sign typed data messages (no gas)
+   * Signatures are cryptographically secure
+   * No private key exposure
+2. **Facilitator Network**
+   * x402 facilitators relay signed transactions
+   * Facilitators pay gas on behalf of users
+   * Instant confirmation
+3. **Smart Contract Integration**
+   * Contracts verify signatures on-chain
+   * Execute bets with full security
+   * Same security as regular transactions
 
-### Result
+### Benefits Over Traditional Gas
 
-Our contracts use **less gas than typical DeFi protocols**:
-
-| Protocol Type      | Avg Gas per Transaction |
-| ------------------ | ----------------------- |
-| Uniswap swap       | \~150,000 gas           |
-| **HiveBets bet**   | **\~100,000 gas**       |
-| **HiveBets claim** | **\~80,000 gas**        |
-| NFT mint           | \~200,000 gas           |
+| Feature              | x402 Gasless     | Traditional Gas |
+| -------------------- | ---------------- | --------------- |
+| User pays gas        | No               | Yes             |
+| Transaction speed    | Instant          | 3-5 sec         |
+| Requires BNB         | No               | Yes             |
+| Wallet complexity    | Just sign        | Manage gas      |
+| Small bet viability  | Always profitable| Often not worth |
 
 ***
 
-## Future Fee Optimizations
+## Future Improvements
 
-Potential improvements:
+Potential enhancements:
 
-### 1. Gas Rebates
+### 1. Enhanced Cashback
 
 For high-volume users:
 
-* Bet >1 BNB cumulative → 10% gas rebate
-* Bet >5 BNB cumulative → 25% gas rebate
+* Bet >1 BNB cumulative → 12% cashback
+* Bet >5 BNB cumulative → 15% cashback
 
-### 2. Fee Staking
+### 2. Referral Tiers
 
-Stake platform tokens to reduce fees:
+Multi-level referral system:
 
-* Stake 100 tokens → 1.8% fee (instead of .5%)
-* Stake 1000 tokens → 1.5% fee
+* Direct referrals → 15% commission
+* Indirect referrals → 5% commission
 
 ### 3. Volume Discounts
 
-Lower fees for bigger bets:
+Lower platform fees for bigger bets:
 
-* 0.01-0.05 BNB → .5% fee
-* 0.05-0.1 BNB → 1.5% fee
+* 0.001-0.1 BNB → .5% fee
+* 0.1-0.5 BNB → 0.4% fee
 
-### 4. Layer 2
+### 4. Cross-Chain x402
 
-If BSC gas gets expensive:
+Expand to other chains:
 
-* Migrate to BSC Layer 2 or sidechain
-* Could reduce gas 10x
+* Ethereum with x402
+* Polygon with x402
+* Arbitrum with x402
 
 ***
 
@@ -301,7 +297,7 @@ If BSC gas gets expensive:
 
 ### Do I pay fees if I lose?
 
-No platform fee. You only pay gas for the bet transaction (\~$0.18).
+No fees at all. With x402 gasless betting, you pay $0 in gas and $0 platform fee (since you didn't win).
 
 ### Can I avoid the .5% fee?
 
@@ -313,65 +309,66 @@ To sustain platform development, infrastructure, and growth. .5% is industry-low
 
 ### Are there hidden fees?
 
-No. Only .5% on winnings + BSC gas. That's it.
+No. Only .5% on winnings. x402 covers all gas fees. That's it.
 
 ### Can fees change?
 
 Current markets have .5% fixed. Future markets could have different fees, but always disclosed upfront.
 
-### Who sets the gas price?
+### Do I need BNB for gas?
 
-Not HiveBets. Gas is set by the BSC network based on congestion. You can adjust gas price in your wallet.
+No! x402 gasless betting means you never need BNB for gas. Just connect your wallet and sign.
 
 ***
 
 ## Cost Examples at Different BNB Prices
 
+With x402 gasless betting, your costs are always the same regardless of BNB price:
+
 ### If BNB = $300
 
-| Action    | Cost (BNB)  | Cost (USD) |
-| --------- | ----------- | ---------- |
-| Bet       | 0.0003      | $0.09      |
-| Claim     | 0.00024     | $0.07      |
-| **Total** | **0.00054** | **$0.16**  |
+| Action    | Cost (BNB) | Cost (USD) |
+| --------- | ---------- | ---------- |
+| Bet       | 0          | $0         |
+| Claim     | 0          | $0         |
+| **Total** | **0**      | **$0**     |
 
 ### If BNB = $600 (current)
 
-| Action    | Cost (BNB)  | Cost (USD) |
-| --------- | ----------- | ---------- |
-| Bet       | 0.0003      | $0.18      |
-| Claim     | 0.00024     | $0.14      |
-| **Total** | **0.00054** | **$0.32**  |
+| Action    | Cost (BNB) | Cost (USD) |
+| --------- | ---------- | ---------- |
+| Bet       | 0          | $0         |
+| Claim     | 0          | $0         |
+| **Total** | **0**      | **$0**     |
 
 ### If BNB = $1,000
 
-| Action    | Cost (BNB)  | Cost (USD) |
-| --------- | ----------- | ---------- |
-| Bet       | 0.0003      | $0.30      |
-| Claim     | 0.00024     | $0.24      |
-| **Total** | **0.00054** | **$0.54**  |
+| Action    | Cost (BNB) | Cost (USD) |
+| --------- | ---------- | ---------- |
+| Bet       | 0          | $0         |
+| Claim     | 0          | $0         |
+| **Total** | **0**      | **$0**     |
 
-💡 Gas fees in BNB stay constant. USD cost scales with BNB price.
+💡 With x402, gas is always $0. You only pay the .5% platform fee on winnings.
 
 ***
 
 ## Maximize Your Returns
 
-### Tips to Minimize Costs
+### Tips to Maximize Profits
 
-1. **Batch Your Activity**
-   * Don't bet $0.01 ten times (10× gas)
-   * Bet $0.1 once (1× gas)
-2. **Transact During Off-Peak**
-   * Late night UTC hours
-   * Lower BSC congestion
-   * Potentially 30-50% cheaper gas
-3. **Larger Bets = Better ROI**
-   * $0.18 gas on $6 bet (3% cost)
-   * $0.18 gas on $60 bet (0.3% cost)
-4. **Only Claim Meaningful Wins**
-   * Don't claim $1 win and pay $0.32 gas
-   * Wait to accumulate or bet bigger
+1. **Take Advantage of Gasless Betting**
+   * No gas fees means even small bets are profitable
+   * Bet any amount from 0.001 to 0.5 BNB without worrying about gas
+2. **Use Cashback System**
+   * Earn 10% cashback on every bet
+   * Cashback accumulates regardless of win/loss
+3. **Share Your Referral Link**
+   * Earn 15% commission on all referral bets
+   * Passive income from your network
+4. **Bet on Minority Side**
+   * Higher payouts when you're in the minority
+   * Check odds before betting
 
 ***
 

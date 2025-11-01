@@ -7,7 +7,7 @@ Get started with HiveBets in 5 minutes! This guide will walk you through placing
 Before you begin, make sure you have:
 
 * A Web3 wallet (MetaMask, Rabby, or WalletConnect)
-* BNB on BSC Mainnet for betting and gas fees
+* BNB on BSC Mainnet for betting (no gas fees needed!)
 * &#x20;Basic understanding of how wallets work
 
 ***
@@ -17,7 +17,7 @@ Before you begin, make sure you have:
 You'll need BNB (Binance Coin) to:
 
 * Place bets (min: 0.001 BNB, max: 0.5 BNB per wallet)
-* Pay transaction fees (\~$0.10 per transaction)
+* **No gas fees required** - x402 gasless betting!
 
 ### How to Get BNB:
 
@@ -78,12 +78,13 @@ Each market shows:
 4. **Click YES or NO**
    * YES: Token will reach target
    * NO: Token won't reach target
-5. **Confirm in Wallet**
-   * MetaMask (or your wallet) will pop up
-   * Review transaction
-   * Click "Confirm"
-6. **Wait for Confirmation**
-   * Usually takes 5-10 seconds
+5. **Sign Message (x402 Gasless)**
+   * Your wallet will pop up asking to sign
+   * **No gas fee required!**
+   * Just click "Sign" (not "Confirm Transaction")
+6. **Instant Confirmation**
+   * x402 facilitator processes your bet
+   * Usually takes 2-3 seconds
    * You'll see a success message
 
 **Bet Placed!**

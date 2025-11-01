@@ -432,8 +432,8 @@ Anyone can verify:
 
 Learn more:
 
-🎯 [Prediction Markets](prediction-markets.md) - Overall system\
-💰 [Platform Fees](fees.md) - Fee structure\
+[Prediction Markets](prediction-markets.md) - Overall system\
+[Platform Fees](fees.md) - Fee structure\
 📋 [Market Rules](../markets/rules.md) - Complete rules
 
 ***

@@ -376,7 +376,7 @@ With x402 gasless betting, your costs are always the same regardless of BNB pric
 
 Learn more:
 
-🎯 [Parimutuel System](parimutuel.md) - How payouts work\
+[Parimutuel System](parimutuel.md) - How payouts work\
 📋 [Market Rules](../markets/rules.md) - Betting rules\
 💡 [Quick Start](../getting-started/quick-start.md) - Place your first bet
 

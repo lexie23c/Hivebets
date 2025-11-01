@@ -16,9 +16,9 @@ We DON'T provide: Financial advice, custody of funds, guaranteed profits.
 
 ## 3. Eligibility
 
-- ✅ 18+ years old
-- ✅ Legal in your jurisdiction
-- ✅ Your responsibility to comply with local laws
+- 18+ years old
+- Legal in your jurisdiction
+- Your responsibility to comply with local laws
 
 ## 4. Your Responsibilities
 
@@ -49,13 +49,13 @@ Don't:
 
 ## 7. Disclaimers
 
-⚠️ **NO WARRANTIES**: Platform provided "AS IS"
+**NO WARRANTIES**: Platform provided "AS IS"
 
-⚠️ **NO FINANCIAL ADVICE**: Do your own research
+**NO FINANCIAL ADVICE**: Do your own research
 
-⚠️ **SMART CONTRACT RISKS**: May contain bugs despite audits
+**SMART CONTRACT RISKS**: May contain bugs despite audits
 
-⚠️ **ORACLE RISKS**: Data may be delayed or incorrect
+**ORACLE RISKS**: Data may be delayed or incorrect
 
 ## 8. Limitation of Liability
 

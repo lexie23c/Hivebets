@@ -196,10 +196,10 @@ We'd love to hear it! Share your ideas on Twitter or contact us.
 
 ## More Resources
 
-📚 [What is HiveBets?](what-is-hivebets.md)  
-🎯 [Quick Start Guide](quick-start.md)  
+[What is HiveBets?](what-is-hivebets.md)  
+[Quick Start Guide](quick-start.md)  
 ⚙️ [How It Works](../how-it-works/prediction-markets.md)  
-💰 [Market Rules](../markets/rules.md)  
+[Market Rules](../markets/rules.md)  
 
 ---
 

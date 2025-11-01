@@ -41,10 +41,10 @@ Odds **constantly change** as more bets are placed:
 
 ### What This Means
 
-✅ **No house edge** - You're betting against other users  
-✅ **Market-driven** - Odds reflect collective opinion  
-✅ **Transparent** - All pools visible on-chain  
-✅ **Fair** - Everyone sees the same odds at the same time  
+**No house edge** - You're betting against other users  
+**Market-driven** - Odds reflect collective opinion  
+**Transparent** - All pools visible on-chain  
+**Fair** - Everyone sees the same odds at the same time  
 
 ### Viewing Odds
 

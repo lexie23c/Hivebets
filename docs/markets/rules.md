@@ -33,7 +33,7 @@ Complete rules for participating in HiveBets prediction markets.
 
 ```
 Allowed: 0.1 BNB on YES + 0.1 BNB on NO = 0.2 BNB total
-❌ Not allowed: 0.15 BNB on YES (exceeds max)
+Not allowed: 0.15 BNB on YES (exceeds max)
 ```
 
 ### Why Max Bet Limits?
@@ -65,7 +65,7 @@ Allowed: 0.1 BNB on YES + 0.1 BNB on NO = 0.2 BNB total
 
 ### Bet Finality
 
-⚠️ **Bets are final and cannot be cancelled or withdrawn**
+**Bets are final and cannot be cancelled or withdrawn**
 
 Once a transaction is confirmed:
 
@@ -81,21 +81,21 @@ You can place multiple bets **up to the maximum**:
 ```
 Scenario 1: Single bet
 - Bet 0.1 BNB on YES
-- ✅ Allowed
-- ❌ Cannot bet more on YES
+- Allowed
+- Cannot bet more on YES
 
 Scenario 2: Multiple small bets
 - Bet 0.03 BNB on YES
 - Bet 0.04 BNB on YES
 - Bet 0.03 BNB on YES
 - Total: 0.1 BNB
-- ✅ Allowed
-- ❌ Cannot bet more on YES
+- Allowed
+- Cannot bet more on YES
 
 Scenario 3: Both sides
 - Bet 0.1 BNB on YES
 - Bet 0.1 BNB on NO
-- ✅ Allowed (hedging strategy)
+- Allowed (hedging strategy)
 ```
 
 ***
@@ -147,7 +147,7 @@ Scenario B:
 
 Scenario C:
 - At deadline: Exactly $100M
-- Outcome: YES ✅ (>= target)
+- Outcome: YES (>= target)
 ```
 
 ***
@@ -193,7 +193,7 @@ Your entire stake goes to the winning pool.
 **How**: Click "Claim Winnings" button on market page\
 **Cost**: Gas fee (\~$0.14)
 
-⚠️ **You must claim manually**. Payouts are not automatic.
+**You must claim manually**. Payouts are not automatic.
 
 [Learn more about claiming →](claiming.md)
 
@@ -223,15 +223,15 @@ Only **before the deadline** and only by the **resolver** (market creator).
 
 If a market is cancelled:
 
-* ✅ Get 100% of your stake back
-* ✅ No platform fee
-* ❌ Pay gas fee to claim refund (\~$0.14)
+* Get 100% of your stake back
+* No platform fee
+* Pay gas fee to claim refund (\~$0.14)
 
 ***
 
 ## Prohibited Actions
 
-### ❌ Market Manipulation
+### Market Manipulation
 
 Prohibited activities include:
 
@@ -246,7 +246,7 @@ Prohibited activities include:
 * Community reputation damage
 * Potential legal action for large-scale fraud
 
-### ❌ Exploits
+### Exploits
 
 Do not attempt to:
 
@@ -266,10 +266,10 @@ Do not attempt to:
 HiveBets markets are designed to be fair:
 
 **Max bet limits** prevent whale dominance\
-✅ **Parimutuel system** ensures fair odds\
-✅ **Oracle resolution** removes human bias\
-✅ **Open-source code** allows community audits\
-✅ **On-chain transparency** enables verification
+**Parimutuel system** ensures fair odds\
+**Oracle resolution** removes human bias\
+**Open-source code** allows community audits\
+**On-chain transparency** enables verification
 
 ### Self-Balancing
 
@@ -306,15 +306,15 @@ Markets naturally balance themselves:
 
 Each market displays:
 
-* ✅ Market question (e.g., "Will 哈基米 reach $100M?")
-* ✅ Token address
-* ✅ Target market cap
-* ✅ Deadline (date and time in UTC)
-* ✅ Max bet limit
-* ✅ Platform fee
-* ✅ Live odds (YES and NO percentages)
-* ✅ Pool sizes (YES pool, NO pool)
-* ✅ Your stakes (if you've bet)
+* Market question (e.g., "Will 哈基米 reach $100M?")
+* Token address
+* Target market cap
+* Deadline (date and time in UTC)
+* Max bet limit
+* Platform fee
+* Live odds (YES and NO percentages)
+* Pool sizes (YES pool, NO pool)
+* Your stakes (if you've bet)
 
 ### Verification
 
@@ -331,13 +331,13 @@ All data is **on-chain** and verifiable:
 
 ### Your Obligations
 
-✅ **Understand the risks**\
-✅ **Verify market details** before betting\
-✅ **Secure your wallet** and private keys\
-✅ **Comply with local laws**\
-✅ **Only bet what you can afford to lose**
+**Understand the risks**\
+**Verify market details** before betting\
+**Secure your wallet** and private keys\
+**Comply with local laws**\
+**Only bet what you can afford to lose**
 
-❌ **HiveBets does not**:
+**HiveBets does not**:
 
 * Provide financial advice
 * Guarantee profits
@@ -386,7 +386,7 @@ Always check market details before betting.
 
 ### Disclaimer
 
-⚠️ **Important**:
+**Important**:
 
 * Prediction markets involve risk
 * You can lose your entire bet
@@ -403,24 +403,24 @@ Always check market details before betting.
 
 **Key Rules to Remember**:
 
-1. ✅ Max 0.5 BNB per wallet per side
-2. ✅ Bets are final (no cancellation)
-3. ✅ Betting closes at deadline (strict)
-4. ✅ Winners split losing pool proportionally
-5. ✅ 2% fee on winnings only
-6. ✅ Must manually claim payouts
-7. ✅ Markets resolve via Hivebets Oracle
-8. ✅ Refunds if cancelled before deadline
-9. ✅ Age 18+, comply with local laws
-10. ✅ Only bet what you can afford to lose
+1. Max 0.5 BNB per wallet per side
+2. Bets are final (no cancellation)
+3. Betting closes at deadline (strict)
+4. Winners split losing pool proportionally
+5. 2% fee on winnings only
+6. Must manually claim payouts
+7. Markets resolve via Hivebets Oracle
+8. Refunds if cancelled before deadline
+9. Age 18+, comply with local laws
+10. Only bet what you can afford to lose
 
 ***
 
 ## Next Steps
 
-📚 [How to Bet](how-to-bet.md) - Step-by-step betting guide\
-💰 [Claiming Winnings](claiming.md) - How to claim payouts\
-❓ [FAQ](../getting-started/faq.md) - Common questions
+[How to Bet](how-to-bet.md) - Step-by-step betting guide\
+[Claiming Winnings](claiming.md) - How to claim payouts\
+[FAQ](../getting-started/faq.md) - Common questions
 
 ***
 

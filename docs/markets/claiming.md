@@ -250,7 +250,7 @@ Action: [Claim Winnings] button
 
 ```
 Status: RESOLVED (YES)
-Claimed: ✅ 0.089 BNB
+Claimed: 0.089 BNB
 Action: None (already claimed)
 ```
 
@@ -290,25 +290,25 @@ Action: None
 
 ## Common Issues
 
-### ❌ "Already Claimed" Error
+### "Already Claimed" Error
 
 **Cause**: You've already claimed this market's winnings.
 
 **Solution**: Check BSCScan for previous claim transaction.
 
-### ❌ "Not Resolved" Error
+### "Not Resolved" Error
 
 **Cause**: Market hasn't resolved yet.
 
 **Solution**: Wait for resolution. Check deadline countdown.
 
-### ❌ "No Winnings" Error
+### "No Winnings" Error
 
 **Cause**: You bet on the losing side.
 
 **Solution**: Unfortunately, you lost this bet. Try again!
 
-### ❌ Transaction Failed
+### Transaction Failed
 
 **Possible causes**:
 
@@ -322,7 +322,7 @@ Action: None
 * Try again
 * Verify you're on BSC Mainnet
 
-### ❌ Claim Button Not Appearing
+### Claim Button Not Appearing
 
 **Checklist**:
 
@@ -444,7 +444,7 @@ If transaction succeeded but no BNB, contact support with transaction hash.
 
 ### What Happens to Your BNB?
 
-* ✅ **It's in your wallet** - Do whatever you want with it!
+* **It's in your wallet** - Do whatever you want with it!
 * Withdraw to exchange
 * Bet on another market
 * Hold
@@ -460,7 +460,7 @@ Feeling lucky? Browse new markets and bet again!
 
 ## Next Steps
 
-📊 [Active Markets](broken-reference) - Find new betting opportunities\
+[Active Markets](broken-reference) - Find new betting opportunities\
 📋 [Market Rules](rules.md) - Review the rules\
 💡 [How to Bet](how-to-bet.md) - Place another bet
 

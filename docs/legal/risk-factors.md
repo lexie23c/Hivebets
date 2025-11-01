@@ -75,7 +75,7 @@
 
 ---
 
-### 📊 Market Manipulation
+### Market Manipulation
 
 **Risk**: Despite 0.1 BNB limits, manipulation still possible via multiple wallets.
 
@@ -109,26 +109,26 @@
 
 | Risk | Level | Can You Control? |
 |------|-------|------------------|
-| Losing your bet | **VERY HIGH** | ❌ (market dependent) |
-| Token rug pull | **HIGH** | ❌ (token dependent) |
-| Smart contract bug | **MEDIUM** | ❌ |
-| Oracle failure | **LOW** | ❌ |
-| Wallet hack | **MEDIUM** | ✅ (use good security) |
-| Network issues | **LOW** | ✅ (bet early) |
+| Losing your bet | **VERY HIGH** | (market dependent) |
+| Token rug pull | **HIGH** | (token dependent) |
+| Smart contract bug | **MEDIUM** | |
+| Oracle failure | **LOW** | |
+| Wallet hack | **MEDIUM** | (use good security) |
+| Network issues | **LOW** | (bet early) |
 
 ---
 
 ## Bottom Line
 
-⚠️ **You can lose all your money**
+**You can lose all your money**
 
-⚠️ **Four.meme tokens are extremely risky**
+**Four.meme tokens are extremely risky**
 
-⚠️ **Only bet what you can afford to lose**
+**Only bet what you can afford to lose**
 
-⚠️ **No guarantees, no insurance, no bailouts**
+**No guarantees, no insurance, no bailouts**
 
-⚠️ **Use at your own risk**
+**Use at your own risk**
 
 ---
 

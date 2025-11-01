@@ -47,7 +47,7 @@ You'll need BNB (Binance Coin) to:
    * If prompted, click "Switch Network"
    * Confirm in your wallet
 
-✅ You're connected! Your wallet address will show in the header.
+You're connected! Your wallet address will show in the header.
 
 ***
 

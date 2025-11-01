@@ -1,10 +1,11 @@
 # HiveBets
 
-**Trustless, decentralized prediction markets on BNB Chain**
+**The First Gasless Prediction Market on BNB Chain**
 
-*Where the hive predicts together*
+*Where the hive predicts together - no gas fees required*
 
 [![BSC Mainnet](https://img.shields.io/badge/Network-BSC%20Mainnet-yellow)](https://bscscan.com/)
+[![x402 Gasless](https://img.shields.io/badge/x402-Gasless%20Betting-brightgreen)](https://x402.unibase.com/)
 [![Twitter](https://img.shields.io/badge/Twitter-@Hivebetsbnb-1DA1F2)](https://x.com/Hivebetsbnb)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.24-blue)](https://soliditylang.org/)
@@ -13,11 +14,11 @@
 
 ## What is HiveBets?
 
-HiveBets is a fully decentralized prediction market platform built on BNB Chain. We let you bet on real-world outcomes from crypto token prices to social events with complete transparency and trustless execution.
+HiveBets is the **first gasless prediction market platform** built on BNB Chain. Powered by revolutionary x402 protocol, we let you bet on real-world outcomes from crypto token prices to social events with **zero gas fees**, complete transparency, and trustless execution.
 
-Traditional betting platforms are centralized, opaque, and take your funds off-chain. HiveBets changes this. Every bet is recorded on the blockchain. Every outcome is resolved by our proprietary Hivebets Oracle system pulling data from multiple verified sources. Your funds stay in your wallet until you place a bet, and winners are paid automatically through smart contracts.
+Traditional betting platforms are centralized, opaque, and take your funds off-chain. Even decentralized alternatives force you to pay expensive gas fees on every transaction. HiveBets changes this. Every bet is recorded on the blockchain **without you paying a single satoshi in gas**. Every outcome is resolved by our proprietary Hivebets Oracle system pulling data from multiple verified sources. Your funds stay in your wallet until you place a bet, and winners are paid automatically through smart contracts.
 
-Whether you're predicting the next Four.meme token to moon, BNB hitting a price target, or even CZ's tweet activity, HiveBets provides a fair, transparent, and community-driven platform where the hive always wins together.
+Whether you're predicting the next Four.meme token to moon, BNB hitting a price target, or even CZ's tweet activity, HiveBets provides a fair, transparent, and community-driven platform where the hive always wins together - **all without gas fees**.
 
 ---
 

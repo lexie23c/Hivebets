@@ -1,28 +1,28 @@
 # What is HiveBets?
 
-HiveBets is the **first and only decentralized prediction market platform** exclusively focused on **Four.meme tokens** on BNB Chain. We enable users to speculate on the future market capitalization of the hottest memecoin launches in the trenches.
+HiveBets is the **first gasless prediction market platform** on BNB Chain, exclusively focused on **Four.meme tokens** and crypto events. Powered by revolutionary x402 protocol, we enable users to speculate on the future market capitalization of the hottest memecoin launches in the trenches - **without paying any gas fees**.
 
 ## The Four.meme Advantage
 
-### 🎯 Why We're Four.meme Exclusive
+### Why We're Four.meme Exclusive
 
 **Unlike generic prediction markets** (Polymarket, Augur, etc.) that try to predict everything from elections to sports, HiveBets is **laser-focused** on one thing: **Four.meme token success**.
 
 This specialization gives us unique advantages:
 
-#### 🔥 Riding the Trenches Meta
+#### Riding the Trenches Meta
 - **Four.meme is THE launchpad** on BNB Chain right now
 - "Trenches" culture is driving unprecedented engagement
 - Daily launches with 10x-100x potential
 - We're positioned at the center of the action
 
-#### 📊 Deep Market Understanding
+#### Deep Market Understanding
 - We understand Four.meme token dynamics
 - Optimized oracle integration for BSC memecoins
 - Curated markets for the highest-potential tokens
 - Community that lives in the trenches
 
-#### 🚀 Four.meme's Proven Success
+#### Four.meme's Proven Success
 - Billions in trading volume
 - Multiple tokens reaching $100M+ market caps
 - Viral marketing and strong communities
@@ -33,34 +33,35 @@ This specialization gives us unique advantages:
 ## The Problem (with Traditional Prediction Markets)
 
 Generic prediction markets are:
-- ❌ Too broad - trying to predict everything
-- ❌ Centralized and require trust
-- ❌ Subject to manipulation
-- ❌ Slow to resolve
-- ❌ Charge high fees
-- ❌ Don't understand crypto/memecoin culture
+- Too broad - trying to predict everything
+- Centralized and require trust
+- Subject to manipulation
+- Slow to resolve
+- Charge high fees
+- **Expensive gas fees** on every transaction
+- Don't understand crypto/memecoin culture
 
 ## The Solution
 
 HiveBets leverages **blockchain technology** and **decentralized oracles** to create:
 
-### ✅ Trustless Markets
+### Trustless Markets
 All bets are recorded on-chain. Smart contracts automatically handle:
 - Bet placement and validation
 - Pool management
 - Automatic resolution
 - Winner payouts
 
-### ✅ Oracle-Powered Resolution
+### Oracle-Powered Resolution
 Markets automatically resolve using **Hivebets Oracle**, eliminating the need for manual intervention or trusted parties.
 
-### ✅ Fair & Transparent
+### Fair & Transparent
 - All bets visible on BSCScan
 - Open-source smart contracts
 - Audited code
 - Max bet limits prevent whale manipulation
 
-### ✅ Low Cost
+### Low Cost
 Built on **BSC (Binance Smart Chain)** for:
 - ~$0.10 transaction costs
 - Only 2% platform fee on winnings
@@ -77,16 +78,16 @@ Built on **BSC (Binance Smart Chain)** for:
 
 ## Who Is It For?
 
-### 🎯 Traders
+### Traders
 Profit from your market insights without buying the actual tokens.
 
-### 💎 Speculators
+### Speculators
 Bet on moonshots with limited downside (max bet: 0.1 BNB).
 
-### 🧠 Market Analysts
+### Market Analysts
 Put your predictions on-chain and earn from being right.
 
-### 🏆 Early Adopters
+### Early Adopters
 Access prediction markets for emerging tokens before they're widely known.
 
 ## Key Benefits
